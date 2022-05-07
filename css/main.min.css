@@ -31,6 +31,11 @@ body {
   color: #212121;
   font-size: 14px;
 }
+@media (min-width: 320px) {
+  body {
+    overflow: hidden;
+  }
+}
 
 .container {
   display: flex;
@@ -92,6 +97,12 @@ textarea::placeholder {
   border-bottom: solid 1px #ECECEC;
   align-items: center;
   margin-bottom: 0px;
+}
+@media (max-width: 480px) {
+  .menu-container {
+    padding-left: 15px;
+    padding-right: 20px;
+  }
 }
 
 .menu-container__nav {
