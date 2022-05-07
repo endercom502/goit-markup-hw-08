@@ -33,7 +33,7 @@ body {
 }
 @media (min-width: 320px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 
@@ -42,6 +42,11 @@ body {
   flex-basis: 1200px;
   justify-content: center;
   flex-direction: column;
+}
+@media (max-width: 480px) {
+  .container {
+    flex-basis: 480px;
+  }
 }
 
 form {
@@ -102,6 +107,9 @@ textarea::placeholder {
   .menu-container {
     padding-left: 15px;
     padding-right: 20px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    flex-basis: auto;
   }
 }
 
@@ -110,6 +118,11 @@ textarea::placeholder {
   flex-direction: row;
   align-self: baseline;
 }
+@media (max-width: 480px) {
+  .menu-container__nav {
+    display: none;
+  }
+}
 
 .menu-container__ul {
   display: inline-flex;
@@ -117,6 +130,11 @@ textarea::placeholder {
   line-height: 1.14;
   padding-left: 0px;
   list-style: none;
+}
+@media (max-width: 480px) {
+  .menu-container__ul {
+    visibility: hidden;
+  }
 }
 
 .menu-container__ul--style {
@@ -171,6 +189,11 @@ textarea::placeholder {
   justify-content: space-around;
   margin: 0;
 }
+@media (max-width: 480px) {
+  .menu-container__span::after {
+    visibility: hidden;
+  }
+}
 
 .menu-container__tel {
   color: #757575;
@@ -184,6 +207,11 @@ textarea::placeholder {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+@media (max-width: 480px) {
+  .header-footer__logo {
+    font-size: 24px;
+  }
 }
 
 .header-footer__blue {
@@ -213,6 +241,12 @@ textarea::placeholder {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 1600px;
+}
+@media (max-width: 480px) {
+  .container-head .container-head__title {
+    font-size: 24px;
+    height: 400px;
+  }
 }
 .container-head .container-head__button {
   background-color: #2196F3;
@@ -489,6 +523,11 @@ textarea::placeholder {
   justify-content: center;
   list-style: none;
 }
+@media (max-width: 480px) {
+  .container-offer__ul {
+    flex-direction: column;
+  }
+}
 
 .container-offer__svg {
   background-color: #F5F4FA;
@@ -501,6 +540,13 @@ textarea::placeholder {
   margin-top: 94px;
   border-radius: 4px;
 }
+@media (max-width: 480px) {
+  .container-offer__svg {
+    width: 450px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
 
 .container-offer__src {
   margin: 25px 102.34px 25px 102.34px;
@@ -509,6 +555,14 @@ textarea::placeholder {
   text-align: center;
   fill-opacity: 1;
   stroke-width: 0;
+}
+.container-offer__src:nth-child(4) {
+  margin: 60.56px 139.9px 47.77px 118.39px;
+}
+@media (max-width: 480px) {
+  .container-offer__src {
+    margin: 25px 192.34px 25px 192.34px;
+  }
 }
 
 .container-offer__text {

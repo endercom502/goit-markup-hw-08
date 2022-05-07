@@ -23,6 +23,10 @@
     margin-top: 0;
     margin-bottom: 0;
     max-width: 1600px;
+    @media (max-width:480px) {
+        font-size: 24px;
+        height: 400px;
+    }
     }
     .container-head__button {
         background-color: getColor(blue-brand);

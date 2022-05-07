@@ -30,7 +30,7 @@ body {
     color: #212121;
     font-size: 14px;
     @media (min-width: 320px) {
-    overflow: hidden;
+    overflow-x: hidden;
     }
 }
 
@@ -39,6 +39,9 @@ body {
     flex-basis: 1200px;
     justify-content: center;
     flex-direction: column;
+    @media (max-width: 480px) {
+        flex-basis: 480px;
+    }
 }
 form {
     display: flex;
