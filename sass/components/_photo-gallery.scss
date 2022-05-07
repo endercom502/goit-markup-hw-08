@@ -1,0 +1,74 @@
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-gallery__flex {
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+.photo-gallery__li {
+    display: flex;
+}
+.photo-gallery__photo {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transition-property: box-shadow, cursor, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:nth-child(3n+3) {
+        margin-right: 0;
+    }
+    &:nth-child(1n+7) {
+        margin-bottom: 94px;
+    }
+    &:hover {
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.16);
+        cursor: pointer;
+        animation-name: portfoliochange;
+    }
+}
+.photo-gallery__animation {
+    position: relative;
+    z-index: 0;
+    &:hover::before {
+    content: "Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji";
+        width: 370px;
+        height: 294px;
+        background-color: rgba(33, 150, 243, 0.9);
+        z-index: 1;
+        color: #FFFFFF;
+        padding: 49px 45px 49px 24px;
+        font-size: 18px;
+        line-height: 28px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        animation-name: portfoliochange;
+        animation-duration: 250ms;
+        position: absolute;
+        top: 0px;
+        animation-fill-mode: both;
+        overflow: hidden;
+        transform-origin: bottom;
+    }
+}
+.photo-gallery__figcaption {
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 24px;
+    padding-right: 23px;
+    border-bottom: solid 1px #EEEEEE;
+    border-right: solid 1px #EEEEEE;
+    border-left: solid 1px #EEEEEE;
+    border-top: 0px;
+    position: relative;
+    z-index: 3;
+
+    & p {
+        font-weight: 400;
+        color: #757575;
+        line-height: 2;
+    }
+}

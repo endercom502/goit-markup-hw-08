@@ -1,0 +1,41 @@
+.container-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container-head__title {
+    background-color: #2f303a;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/backgrand-people-in-office.webp),
+    no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1600px;
+    }
+    .container-head__button {
+        background-color: getColor(blue-brand);
+        color: getColor(white-);
+        height: 50px;
+        width: 200px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        letter-spacing: 0.96px;
+        font-size: 16px;
+        font-family: "Roboto";
+        border-radius: 4px;
+        border: getColor(white-);
+        line-height: 1.6;
+        margin-top: 30px;
+    }
+}

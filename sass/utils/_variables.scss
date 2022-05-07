@@ -1,0 +1,102 @@
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+input,
+textarea {
+    all: unset;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #212121;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-basis: 1200px;
+    justify-content: center;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    color: #757575;
+    font-size: 12px;
+    padding: 0 40px;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+label {
+    display: flex;
+    margin-bottom: 10px;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: space-around;
+    transition-property: all;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+    fill: #2196F3;
+    cursor: pointer;
+}
+}
+label>textarea {
+    max-width: 448px;
+}
+textarea::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+}
+@keyframes portfoliochange {
+    0% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+$colors: (
+    'blue-brand': #2196F3,
+    'background-icons': #F5F4FA,
+    'phone-color': #757575,
+    'media-icon-color': #AFB1B8,
+    'white-': #FFFFFF,
+    'background-shadow': rgba(47, 48, 58, 0.4),
+    'background-photo-gallery': rgba(47, 48, 58, 0.8),
+    'footer-black': #2F303A,
+    'border-menu': #ECECEC,
+);
+@function getColor($key) {
+    @return map-get($colors, $key)
+}
+$shadows: (
+    'workers-shadow': "0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2)",
+    'button-shadow': "0px 4px 4px rgba(0, 0, 0, 0.15)",
+    'button-offer': "0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)",
+    'offer-shadow': "0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16)",
+);
+@function getShadow($key) {
+    @return map-get($shadows, $key)
+}

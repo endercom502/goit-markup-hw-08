@@ -1,0 +1,100 @@
+.menu-container {
+    display: flex;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    justify-items: center;
+    flex-basis: 33%;
+    border-bottom: solid 1px getColor(border-menu);
+    align-items: center;
+    margin-bottom: 0px;
+}
+.menu-container__nav {
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+}
+
+.menu-container__ul {
+    display: inline-flex;
+    font-weight: 500;
+    line-height: 1.14;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.menu-container__ul--style {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 300px;
+    justify-items: center;
+    margin-top: 32px;
+}
+
+.menu-container__ul--style2 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 300px;
+    justify-items: center;
+    margin-top: 0px;
+}
+
+.menu-container__link {
+    color: #212121;
+    padding: 0;
+    transition-property: cursor,
+        fill,
+        color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+    cursor: pointer;
+    color: getColor(blue-brand);
+    fill: getColor(blue-brand);
+}
+
+&:link {
+    text-decoration: getColor(blue-brand);
+}
+
+&:active {
+    color: getColor(blue-brand);
+}
+}
+.menu-container__span {
+    padding: 0;
+    margin: 0;
+
+&::after {
+    display: flex;
+    content: " ";
+    border-bottom: 4px solid getColor(blue-brand);
+    padding-top: 28px;
+    width: 53px;
+    justify-content: space-around;
+    margin: 0;
+}
+}
+.menu-container__tel {
+    color: getColor(phone-color);
+    fill: getColor(phone-color);
+    padding-left: 5px;
+}
+
+.header-footer__logo {
+    align-self: center;
+    font-family: "Releway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.header-footer__blue {
+    color: getColor(blue-brand);
+}
