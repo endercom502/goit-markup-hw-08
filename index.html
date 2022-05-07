@@ -15,465 +15,456 @@
     <title>WebStudio</title>
     <meta charset="utf-8">
 </head>
+
 <body>
-<header class="menu-container">
-    <a href="/index.html" class="header-footer__logo menu-container__link"><span class="header-footer__blue">Web</span><span>Studio</span></a>
+    <header class="menu-container">
+        <a href="/index.html" class="header-footer__logo menu-container__link"><span
+                class="header-footer__blue">Web</span><span>Studio</span></a>
 
-    <nav class="menu-container__nav">
-        <ul class="menu-container__ul menu-container__ul--style">
-            <li><a href="index.html" class="menu-container__link"><span class="menu-container__span">Agencja</span></a></li>
-            <li><a href="portfolio.html" class="menu-container__link"><span>Portfolio</span></a></li>
-            <li><a href="" class="menu-container__link">Kontakt</a></li>
+        <nav class="menu-container__nav">
+            <ul class="menu-container__ul menu-container__ul--style">
+                <li><a href="index.html" class="menu-container__link"><span
+                            class="menu-container__span">Agencja</span></a></li>
+                <li><a href="portfolio.html" class="menu-container__link"><span>Portfolio</span></a></li>
+                <li><a href="" class="menu-container__link">Kontakt</a></li>
+            </ul>
+        </nav>
+        <ul class="menu-container__ul menu-container__ul--style2">
+            <li class="menu-container__link">
+                <a href="mailto:info@devstudio.com" class="menu-container__link">
+                    <svg width="16px" height="16px">
+                        <use href="./images/icons.svg#icon-mail"></use>
+                    </svg>
+                    <span>info@devstudio.com</span>
+                </a>
+            </li>
+
+            <li class="menu-container__link menu-container__tel">
+                <a href="tel:+48111111111" class="menu-container__tel menu-container__link">
+                    <svg width="16" height="16" x="0" y="0">
+                        <use href="./images/icons.svg#icon-mobile"></use>
+                    </svg>
+                    <span>+48 111 111 111</span>
+                </a>
+            </li>
         </ul>
-    </nav>
-    <ul class="menu-container__ul menu-container__ul--style2">
-        <li class="menu-container__link">
-            <a href="mailto:info@devstudio.com" class="menu-container__link">
-                <svg width="16px" height="16px">
-                    <use href="./images/icons.svg#icon-mail"></use>
+    </header>
+    <main>
+        <section class="container-head">
+            <h1 class="container-head__title">EFEKTYWNE ROZWIĄZANIA
+                <br />DLA WASZEGO BIZNESU
+                <br /><button type="button" class="container-head__button" data-modal-open>Zamów usługe</button>
+            </h1>
+        </section>
+        <section class="container-offer">
+            <div class="container-offer__div">
+                <ul class="container-offer__ul">
+                    <li class="container-offer__svg">
+                        <svg width="65.32px" height="70px" class="container-offer__src">
+                            <use href="./images/icons.svg#icon-satelit"></use>
+                        </svg>
+                    </li>
+            
+                    <li class="container-offer__text">
+                        <h4 class="container-offer__header">LOREM IPSUM</h4>
+                        <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
+                            <br /> adipiscing elit. Nam vel arcu sem. Sed
+                            <br /> non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                </ul>
+                <ul class="container-offer__ul">
+                    <li class="container-offer__svg">
+                        <svg width="66.96px" height="70px" class="container-offer__src">
+                            <use href="./images/icons.svg#icon-clock"></use>
+                        </svg>
+                    </li>
+                
+                    <li class="container-offer__text">
+                        <h4 class="container-offer__header">LOREM IPSUM</h4>
+                        <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
+                            <br /> adipiscing elit. Nam vel arcu sem. Sed
+                            <br /> non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                </ul>
+                <ul class="container-offer__ul">
+                    <li class="container-offer__svg">
+                        <svg width="70px" height="53.69px" class="container-offer__src">
+                            <use href="./images/icons.svg#icon-computer"></use>
+                        </svg>
+                    </li>
+                
+                    <li class="container-offer__text">
+                        <h4 class="container-offer__header">LOREM IPSUM</h4>
+                        <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
+                            <br /> adipiscing elit. Nam vel arcu sem. Sed
+                            <br /> non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                </ul>
+                <ul class="container-offer__ul">
+                    <li class="container-offer__svg">
+                        <svg width="54.83" height="60.66" class="container-offer__src">
+                            <use href="./images/icons.svg#icon-space-man"></use>
+                        </svg>
+                    </li>
+                
+                    <li class="container-offer__text">
+                        <h4 class="container-offer__header">LOREM IPSUM</h4>
+                        <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
+                            <br /> adipiscing elit. Nam vel arcu sem. Sed
+                            <br /> non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="offer-gallery">
+            <h2 class="offer-gallery__titel">Czym się zajmujemy</h2>
+            <ul class="offer-gallery__photo">
+                <div class="offer-gallery__thumb">
+                    <li class="container-workers__item"><img src="images/box1.webp" alt="man typing on a laptop"
+                            width="370" height="294" /></li>
+                    <p class="offer-gallery__underground">APLIKACJE KOMPUTEROWE</p>
+                </div>
+
+                <div class="offer-gallery__thumb">
+                    <li class="container-workers__item"><img src="images/box3.webp" alt="man using a tablet" width="370"
+                            height="294" />
+                    </li>
+                    <p class="offer-gallery__underground">APLIKACJE MOBILNE</p>
+                </div>
+                <div class="offer-gallery__thumb">
+                    <li class="container-workers__item"><img src="images/box2.webp" alt="good" width="370"
+                            height="294" /></li>
+                    <p class="offer-gallery__underground">ROZWIĄZANIA GRAFICZNE</p>
+                </div>
+            </ul>
+        </section>
+        <section class="container-workers">
+            <h2 class="container-workers_title">Nasz zespół</h2>
+            <ul class="container-workers_photos container-workers__figure-ground">
+                <li class="container-workers__item">
+                    <figure class="container-workers__shadow">
+                        <img src="images/john_doe.webp" alt="John Doe Product Designer" width="270" height="260" />
+                        <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">
+                                Product Designer</p>
+                            <div class="container-workers__social-media">
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li><svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="container-workers__item">
+                    <figure class="container-workers__shadow">
+                        <img src="images/frontend_developer.webp" alt="John Doe Frontend developer" width="270"
+                            height="260" />
+                        <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">
+                                Frontend developer</p>
+                            <div class="container-workers__social-media">
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li><svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="container-workers__item">
+                    <figure class="container-workers__shadow">
+                        <img src="images/marketing.webp" alt="John Doe Marketing" width="270" height="260" />
+                        <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">
+                                Marketing</p>
+                            <div class="container-workers__social-media">
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li><svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="container-workers__item">
+                    <figure class="container-workers__shadow">
+                        <img src="images/ui_designer.webp" alt="John Doe UI Designer" width="270" height="260" />
+                        <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">
+                                UI Designer</p>
+                            <div class="container-workers__social-media">
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li>
+                                        <svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="container-workers__span">
+                                    <li><svg width="44px" height="44px" class="container-workers__svg">
+                                            <use width="20px" height="20px" x="12" y="12"
+                                                href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section class="container-container-clients__svg">
+            <div class="container-clients__parent">
+                <h2 class="container-clients__title">Nasi Klienci</h2>
+                <ul class="container-clients__photo">
+                    <li class="container-clients__svg">
+                        <svg class="container-clients__graphics" width="106px" height="60.04px"
+                            style="outline: 1px solid transparent">
+                            <use href="./images/icons.svg#icon-logo"></use>
+                        </svg>
+                    </li>
+                    <li class="container-clients__svg">
+                        <svg class="container-clients__graphics" width="106px" height="60.04px"
+                            style="outline: 1px solid transparent">
+                            <use href="./images/icons.svg#icon-logo-2"></use>
+                        </svg>
+                    </li>
+                    <li class="container-clients__svg">
+                        <svg class="container-clients__graphics" width="106px" height="60px"
+                            style="outline: 1px solid transparent">
+                            <use href="./images/icons.svg#icon-logo-3a"></use>
+                        </svg>
+                    </li>
+                    <li class="container-clients__svg">
+                        <svg class="container-clients__graphics" width="106px" height="60px"
+                            style="outline: 1px solid transparent">
+                            <use href="./images/icons.svg#icon-logo-4"></use>
+                        </svg>
+                    </li>
+                    <li class="container-clients__svg">
+                        <svg class="container-clients__graphics" width="106px" height="60px"
+                            style="outline: 1px solid transparent">
+                            <use href="./images/icons.svg#icon-logo-5"></use>
+                        </svg>
+                    </li>
+                    <li class="container-clients__svg">
+                        <svg class="container-clients__graphics" width="106px" height="60px"
+                            style="outline: 1px solid transparent">
+                            <use href="./images/icons.svg#icon-logo-6"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__div">
+            <div>
+                <a href="/index.html"
+                    class="header-footer__logo header-footer__blue footer__logo--white">Web<span>Studio</span></a>
+                <ul class="footer__text">
+                    <li>
+                        <address class="footer__adres">m. Warszawa, Aleje Jerozolimskie 21</address>
+                    </li>
+                    <li><a href="mailto:info@devstudio.com"
+                            class="footer__adres-next-line menu-container__link">info@devstudio.com</a></li>
+                    <li><a href="tel:+48111111111" class="menu-container__tel menu-container__link">+48 111 111 111</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__social-media">
+                <h2 class="footer__h">DOŁĄCZ DO NAS</h2>
+                <ul>
+                    <li><svg width="44px" height="44px" class="footer__svg">
+                            <use width="20px" height="20px" x="12" y="12" href="./images/icons.svg#icon-instagram">
+                            </use>
+                        </svg>
+                    </li>
+                </ul>
+                <ul>
+                    <li><svg width="44px" height="44px" class="footer__svg">
+                            <use width="20px" height="20px" x="12" y="12" href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </li>
+                </ul>
+                <ul>
+                    <li><svg width="44px" height="44px" class="footer__svg">
+                            <use width="20px" height="20px" x="12" y="12" href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </li>
+                </ul>
+                <ul>
+                    <li><svg width="44px" height="44px" class="footer__svg">
+                            <use width="20px" height="20px" x="12" y="12" href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <form class="footer__form">
+                    <label class="footer__label">
+                        ZAPISZ SIĘ DO NEWSLETTERA
+                        <input class="footer__input" type="email" name="e-mail" placeholder="E-mail" />
+                    </label>
+                    <button type="submit" class="footer__button">
+                        <span class="footer__span">Zapisz się</span>
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-plane"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <div class="modal__backdrop is-hidden" data-modal>
+        <div class="modal__main">
+            <button type="button" class="modal__close-btn" data-modal-close>
+                <svg width="11" height="11" class="modal__x-close">
+                    <use href="./images/icons.svg#icon-x"></use>
                 </svg>
-                <span>info@devstudio.com</span>
-            </a>
-        </li>
-
-        <li class="menu-container__link menu-container__tel">
-            <a href="tel:+48111111111" class="menu-container__tel menu-container__link">
-                <svg width="16" height="16" x="0" y="0">
-                    <use href="./images/icons.svg#icon-mobile"></use>
-                </svg>
-                <span>+48 111 111 111</span>
-            </a>
-        </li>
-    </ul>
-</header>
-<main>
-    <section class="container-head">
-        <h1 class="container-head__title">EFEKTYWNE ROZWIĄZANIA
-            <br />DLA WASZEGO BIZNESU
-            <br /><button type="button" class="container-head__button" data-modal-open>Zamów usługe</button>
-        </h1>
-    </section>
-    <section class="container-offer">
-        <div class="container-offer__div">
-            <ul class="container-offer__ul">
-                <li class="container-offer__svg">
-                    <svg width="65.32px" height="70px" class="container-offer__src">
-                        <use href="./images/icons.svg#icon-satelit"></use>
-                    </svg>
-                    <div>
-                        <ul class="container-offer__text">
-                            <li>
-                                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                                    <br /> non sodales dui. Interdum et malesuada
-                                </p>
-                            </li>
-                            </ul>
-                    </div>
-                </li>
-
-
-                <li class="container-offer__svg">
-                    <svg width="66.96px" height="70px" class="container-offer__src">
-                        <use href="./images/icons.svg#icon-clock"></use>
-                    </svg>
-                    <div>
-                        <ul class="container-offer__text">
-                            <li>
-                                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                                    <br /> non sodales dui. Interdum et malesuada
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="container-offer__svg">
-                    <svg width="70px" height="53.69px" class="container-offer__src">
-                        <use href="./images/icons.svg#icon-computer"></use>
-                    </svg>
-                    <div>
-                        <ul class="container-offer__text">
-                            <li>
-                                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                                    <br /> non sodales dui. Interdum et malesuada
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="container-offer__svg">
-                    <svg width="54.83" height="60.66" class="container-offer__src">
-                        <use href="./images/icons.svg#icon-space-man"></use>
-                    </svg>
-                    <div>
-                        <ul class="container-offer__text">
-                            <li>
-                                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                                    <br /> non sodales dui. Interdum et malesuada
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!-- <ul class="container-offer__text">
-            <li>
-                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                    <br /> non sodales dui. Interdum et malesuada
-                </p>
-            </li>
-            <li>
-                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                    <br /> non sodales dui. Interdum et malesuada
-                </p>
-            </li>
-            <li>
-                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                    <br /> non sodales dui. Interdum et malesuada
-                </p>
-            </li>
-            <li>
-                <h4 class="container-offer__header">LOREM IPSUM</h4>
-                <p class="container-offer__content">Lorem ipsum dolor sit amet, consectetur
-                    <br /> adipiscing elit. Nam vel arcu sem. Sed
-                    <br /> non sodales dui. Interdum et malesuada
-                </p>
-            </li>
-        </ul> -->
-    </section>
-    <section>
-        <h2 class="offer-gallery__titel">Czym się zajmujemy</h2>
-        <ul class="offer-gallery__photo">
-            <div class="offer-gallery__thumb">
-                <li class="container-workers__item"><img src="images/box1.webp" alt="man typing on a laptop" width="370"
-                        height="294" /></li>
-                <p class="offer-gallery__underground">APLIKACJE KOMPUTEROWE</p>
-            </div>
-
-            <div class="offer-gallery__thumb">
-                <li class="container-workers__item"><img src="images/box3.webp" alt="man using a tablet" width="370" height="294" />
-                </li>
-                <p class="offer-gallery__underground">APLIKACJE MOBILNE</p>
-            </div>
-            <div class="offer-gallery__thumb">
-                <li class="container-workers__item"><img src="images/box2.webp" alt="good" width="370" height="294" /></li>
-                <p class="offer-gallery__underground">ROZWIĄZANIA GRAFICZNE</p>
-            </div>
-        </ul>
-    </section>
-    <section class="container-workers">
-        <h2 class="container-workers_title">Nasz zespół</h2>
-        <ul class="container-workers_photos container-workers__figure-ground">
-            <li class="container-workers__item">
-                <figure class="container-workers__shadow">
-                    <img src="images/john_doe.webp" alt="John Doe Product Designer" width="270" height="260" />
-                    <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">Product Designer</p>
-                        <div class="container-workers__social-media">
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li><svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="container-workers__item">
-                <figure class="container-workers__shadow">
-                    <img src="images/frontend_developer.webp" alt="John Doe Frontend developer" width="270"
-                        height="260" />
-                    <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">Frontend developer</p>
-                        <div class="container-workers__social-media">
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li><svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="container-workers__item">
-                <figure class="container-workers__shadow">
-                    <img src="images/marketing.webp" alt="John Doe Marketing" width="270" height="260" />
-                    <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">Marketing</p>
-                        <div class="container-workers__social-media">
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li><svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="container-workers__item">
-                <figure class="container-workers__shadow">
-                    <img src="images/ui_designer.webp" alt="John Doe UI Designer" width="270" height="260" />
-                    <figcaption class="container-workers__name">John Doe<p class="container-workers__position-name">UI Designer</p>
-                        <div class="container-workers__social-media">
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li>
-                                    <svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                            <ul class="container-workers__span">
-                                <li><svg width="44px" height="44px" class="container-workers__svg">
-                                        <use width="20px" height="20px" x="12" y="12"
-                                            href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </li>
-                            </ul>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
-    </section>
-    <section class="container-container-clients__svg">
-        <div class="container-clients__parent">
-            <h2 class="container-clients__title">Nasi Klienci</h2>
-            <ul class="container-clients__photo">
-                <li class="container-clients__svg">
-                    <svg class="container-clients__graphics" width="106px" height="60.04px" style="outline: 1px solid transparent">
-                        <use href="./images/icons.svg#icon-logo"></use>
-                    </svg>
-                </li>
-                <li class="container-clients__svg">
-                    <svg class="container-clients__graphics" width="106px" height="60.04px" style="outline: 1px solid transparent">
-                        <use href="./images/icons.svg#icon-logo-2"></use>
-                    </svg>
-                </li>
-                <li class="container-clients__svg">
-                    <svg class="container-clients__graphics" width="106px" height="60px" style="outline: 1px solid transparent">
-                        <use href="./images/icons.svg#icon-logo-3a"></use>
-                    </svg>
-                </li>
-                <li class="container-clients__svg">
-                    <svg class="container-clients__graphics" width="106px" height="60px" style="outline: 1px solid transparent">
-                        <use href="./images/icons.svg#icon-logo-4"></use>
-                    </svg>
-                </li>
-                <li class="container-clients__svg">
-                    <svg class="container-clients__graphics" width="106px" height="60px" style="outline: 1px solid transparent">
-                        <use href="./images/icons.svg#icon-logo-5"></use>
-                    </svg>
-                </li>
-                <li class="container-clients__svg">
-                    <svg class="container-clients__graphics" width="106px" height="60px" style="outline: 1px solid transparent">
-                        <use href="./images/icons.svg#icon-logo-6"></use>
-                    </svg>
-                </li>
-            </ul>
-        </div>
-    </section>
-</main>
-<footer class="footer">
-    <div class="footer__div">
-        <div>
-            <a href="/index.html" class="header-footer__logo header-footer__blue footer__logo--white">Web<span>Studio</span></a>
-            <ul class="footer__text">
-                <li>
-                    <address class="footer__adres">m. Warszawa, Aleje Jerozolimskie 21</address>
-                </li>
-                <li><a href="mailto:info@devstudio.com" class="footer__adres-next-line menu-container__link">info@devstudio.com</a></li>
-                <li><a href="tel:+48111111111" class="menu-container__tel menu-container__link">+48 111 111 111</a></li>
-            </ul>
-        </div>
-        <div class="footer__social-media">
-            <h2 class="footer__h">DOŁĄCZ DO NAS</h2>
-            <ul>
-                <li><svg width="44px" height="44px" class="footer__svg">
-                        <use width="20px" height="20px" x="12" y="12"
-                            href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                </li>
-            </ul>
-            <ul>
-                <li><svg width="44px" height="44px" class="footer__svg">
-                        <use width="20px" height="20px" x="12" y="12"
-                            href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                </li>
-            </ul>
-            <ul>
-                <li><svg width="44px" height="44px" class="footer__svg">
-                        <use width="20px" height="20px" x="12" y="12"
-                            href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                </li>
-            </ul>
-            <ul>
-                <li><svg width="44px" height="44px" class="footer__svg">
-                        <use width="20px" height="20px" x="12" y="12"
-                            href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                </li>
-            </ul>
-        </div>
-        <div>
-          <form class="footer__form">
-              <label class="footer__label">
-                ZAPISZ SIĘ DO NEWSLETTERA
-                <input class="footer__input" type="email" name="e-mail" placeholder="E-mail" />
-              </label>
-              <button type="submit" class="footer__button">
-                  <span class="footer__span">Zapisz się</span>
-                  <svg width="24" height="24"><use href="./images/icons.svg#icon-plane"></use></svg>
-                </button>
-          </form>  
-        </div>
-    </div>
-</footer>
-<div class="modal__backdrop is-hidden" data-modal>
-    <div class="modal__main">
-        <button type="button" class="modal__close-btn" data-modal-close>
-            <svg width="11" height="11" class="modal__x-close"><use href="./images/icons.svg#icon-x" ></use></svg>
-        </button>
-    <div>
-        <h4 class="modal__header">Zostaw swoje dane w formularzu poniżej</h4>
-    <form name="Zostaw swoje dane w formularzu poniżej" >  
-        <label class="modal__label">
-            Imie
-            <input type="text" name="Imie" required class="modal__form" />
-            <svg width="12" height="12" class="modal__svg"><use href="./images/icons.svg#icon-man-list"></use></svg>
-        </label>
-        <label class="modal__label">
-            Telefon
-            <input type="tel" name="Telefon" required class="modal__form" />
-            <svg width="12" height="12" class="modal__svg"><use href="./images/icons.svg#icon-phone-list"></use></svg>
-        </label>
-        <label class="modal__label">
-            Email
-            <input type="email" name="Email" required class="modal__form" />
-            <svg width="12" height="12" class="modal__svg"><use href="./images/icons.svg#icon-mail-list"></use></svg>
-        </label>
-        <label>
-            Komentarz
-            <textarea class="modal__textarea" name="Komentarz" placeholder="Wprowadź tekst" >
+            </button>
+            <div>
+                <h4 class="modal__header">Zostaw swoje dane w formularzu poniżej</h4>
+                <form name="Zostaw swoje dane w formularzu poniżej">
+                    <label class="modal__label">
+                        Imie
+                        <input type="text" name="Imie" required class="modal__form" />
+                        <svg width="12" height="12" class="modal__svg">
+                            <use href="./images/icons.svg#icon-man-list"></use>
+                        </svg>
+                    </label>
+                    <label class="modal__label">
+                        Telefon
+                        <input type="tel" name="Telefon" required class="modal__form" />
+                        <svg width="12" height="12" class="modal__svg">
+                            <use href="./images/icons.svg#icon-phone-list"></use>
+                        </svg>
+                    </label>
+                    <label class="modal__label">
+                        Email
+                        <input type="email" name="Email" required class="modal__form" />
+                        <svg width="12" height="12" class="modal__svg">
+                            <use href="./images/icons.svg#icon-mail-list"></use>
+                        </svg>
+                    </label>
+                    <label>
+                        Komentarz
+                        <textarea class="modal__textarea" name="Komentarz" placeholder="Wprowadź tekst">
             </textarea>
-        </label>
-        <label class="modal__checkbox">
-        <input type="checkbox" name="Regulamin" class="modal__checkbox-input" />
-            <svg width="11" height="8" class="modal__checkbox-svg"><use href="./images/icons.svg#icon-check"></use></svg>
-            <span class="modal__checkbox-span">oświadczam iż akceptuję</span> <a href=""> <span>Regulamin</span></a> i <a href="">Politykę Prywatności</a>
-        </label>
-        <button type="submit" class="modal__button">Wyślij</button>
-    </form> 
-        </div> 
+                    </label>
+                    <label class="modal__checkbox">
+                        <input type="checkbox" name="Regulamin" class="modal__checkbox-input" />
+                        <svg width="11" height="8" class="modal__checkbox-svg">
+                            <use href="./images/icons.svg#icon-check"></use>
+                        </svg>
+                        <span class="modal__checkbox-span">oświadczam iż akceptuję</span> <a href="">
+                            <span>Regulamin</span></a> i <a href="">Politykę Prywatności</a>
+                    </label>
+                    <button type="submit" class="modal__button">Wyślij</button>
+                </form>
+            </div>
+        </div>
     </div>
-</div>
-<script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
+
 </html>

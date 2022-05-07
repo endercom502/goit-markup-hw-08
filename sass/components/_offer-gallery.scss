@@ -1,9 +1,18 @@
+.offer-gallery {
+    
+    @media (max-width:480px) {
+            display: none;
+    }
+}
 .offer-gallery__titel {
     text-align: center;
     font-size: 36px;
     line-height: 1.18;
     padding-top: 94px;
     padding-bottom: 50px;
+    @media (max-width:480px) {
+            font-size: 28px;
+}
 }
 .offer-gallery__photo {
     display: flex;

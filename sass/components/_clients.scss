@@ -16,6 +16,9 @@
         line-height: 1.18;
         padding-top: 94px;
         padding-bottom: 50px;
+        @media (max-width:480px) {
+                font-size: 28px;
+}
 }
 .container-clients__photo {
     display: flex;

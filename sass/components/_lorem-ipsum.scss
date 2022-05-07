@@ -1,29 +1,43 @@
+.container-offer__lorem {
+    @media (max-width: 480px) {
+        padding-bottom: 30px;
+    }
+}
 .container-offer {
     display: flex;
     flex-basis: 100%;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 }
 
 .container-offer__div {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    margin-bottom: 94px;
 }
 
 .container-offer__ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
+    // &:nth-child(3) {
+    //         margin: 32.2px 100px 33.11px 100px;
+    //     }
+    
+    //     &.container-offer__src:nth-child(4) {
+    //         margin: 60.56px 139.90px 47.77px 118.39px;
+    //     }
     @media (max-width: 480px) {
             flex-direction: column;
         }
+    
 }
-
 .container-offer__svg {
+    position: relative;
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
@@ -33,6 +47,7 @@
     margin-bottom: 30px;
     margin-top: 94px;
     border-radius: 4px;
+    
     @media (max-width: 480px) {
         width: 450px;
         margin-left: 15px;
@@ -47,24 +62,21 @@
     text-align: center;
     fill-opacity: 1;
     stroke-width: 0;
-    &:nth-child(4) {
-    margin: 60.56px 139.90px 47.77px 118.39px;
-    }
     @media (max-width: 480px) {
-        margin: 25px 192.34px 25px 192.34px;
-    }
+     margin: 25px 192.34px 25px 192.34px;
+   }
 }
-
 .container-offer__text {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: 120px;
     list-style: none;
+    text-align: justify;
 }
 
 .container-offer__header {
     font-size: 14px;
-    line-height: 1.14;
 }
 
 .container-offer__content {
@@ -72,12 +84,7 @@
     color: #757575;
     font-weight: 400;
     line-height: 1.71;
-    width: 270px;
-    height: 75px;
-    margin-right: 30px;
-    margin-bottom: 94px;
-
-    &:last-child {
-        margin-right: 0;
-    }
+    @media (max-width: 480px) {
+            padding-bottom: 30px;
+        }
 }
