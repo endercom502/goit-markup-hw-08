@@ -1,20 +1,15 @@
-.container-offer__lorem {
-    @media (max-width: 480px) {
-        padding-bottom: 30px;
-    }
-}
+
 .container-offer {
     display: flex;
     flex-basis: 100%;
     justify-content: space-around;
     flex-direction: column;
-    
 }
 
 .container-offer__div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 94px;
     @media (max-width: 480px) {
             flex-direction: column;

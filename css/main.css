@@ -513,12 +513,6 @@ textarea::placeholder {
   margin-right: 0;
 }
 
-@media (max-width: 480px) {
-  .container-offer__lorem {
-    padding-bottom: 30px;
-  }
-}
-
 .container-offer {
   display: flex;
   flex-basis: 100%;
@@ -529,7 +523,7 @@ textarea::placeholder {
 .container-offer__div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 94px;
 }
 @media (max-width: 480px) {
