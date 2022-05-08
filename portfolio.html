@@ -67,7 +67,17 @@
         <ul class="photo-gallery__flex photo-gallery__li">
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/1-laptop.webp" alt="website on laptop monitor" width="370" height="294">
+                    <img 
+                    src="images/1-laptop.webp" 
+                    alt="website on laptop monitor" 
+                    width="370" height="294"
+                    srcset="images/laptop-354-294@1x.webp 354w,
+                    images/laptop-354-294@2x.webp 708w,
+                    images/laptop-370-294@2x.webp 740w,
+                    images/1-laptop.webp 370w,
+                    images/laptop-450-294@1x.webp 450w,
+                    images/laptop-450-294@2x.webp 900w," 
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px, 100vw">
                     <figcaption class="photo-gallery__figcaption">Technocrack
                         <p>Strona internetowa
                         </p>
