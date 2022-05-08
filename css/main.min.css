@@ -858,7 +858,9 @@ textarea::placeholder {
   padding-left: 171px;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
+  width: auto;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 @media (max-width: 480px) {
   .footer {
@@ -872,6 +874,9 @@ textarea::placeholder {
 .footer__div {
   display: inline-flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-basis: 100%;
 }
 @media (max-width: 480px) {
   .footer__div {
@@ -1128,7 +1133,7 @@ textarea::placeholder {
   margin-right: 0;
 }
 
-.container-workers_shadow {
+.container-workers__shadow {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
 }

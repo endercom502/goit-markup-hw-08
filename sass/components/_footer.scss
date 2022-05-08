@@ -10,7 +10,10 @@
     padding-left: 171px;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 1600px;
+    width: auto;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+
     @media (max-width: 480px) {
         flex-direction: column;
         padding-left: 0;
@@ -21,6 +24,9 @@
 .footer__div {
     display: inline-flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-basis: 100%;
     @media (max-width: 480px) {
             flex-direction: column;
             align-content: space-between;
