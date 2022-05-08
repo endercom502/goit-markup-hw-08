@@ -637,7 +637,7 @@ textarea::placeholder {
   padding-top: 100px;
   padding-bottom: 36px;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-button {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -671,7 +671,7 @@ textarea::placeholder {
   margin-left: 0px;
   cursor: pointer;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-button__button {
     padding: 6px auto;
     height: 38px;
@@ -701,7 +701,7 @@ textarea::placeholder {
   justify-content: center;
   flex-direction: column;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients {
     width: 480px;
   }
@@ -721,7 +721,7 @@ textarea::placeholder {
   padding-top: 94px;
   padding-bottom: 50px;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients__title {
     font-size: 28px;
   }
@@ -734,7 +734,7 @@ textarea::placeholder {
   justify-content: center;
   list-style: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients__photo {
     flex-wrap: wrap;
   }
@@ -759,27 +759,27 @@ textarea::placeholder {
 .container-clients__svg:last-child {
   margin-right: 0;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients__svg:nth-child(odd) {
     margin: 14px 14px 14px 14px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients__svg:nth-child(even) {
     margin: 14px 14px 14px 14px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients__svg:nth-child(5) {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients__svg:nth-child(6) {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-clients__svg {
     width: 212px;
   }
