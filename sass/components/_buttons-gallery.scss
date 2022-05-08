@@ -4,6 +4,15 @@
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 36px;
+
+    @media (max-width: 480px) {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        width: 480px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
 }
 .container-button__button {
     padding: 6px 22px;
@@ -31,4 +40,25 @@
         margin-left: 0px;
         cursor: pointer;
     }
+    @media (max-width: 480px) {
+        padding: 6px auto;
+        height: 38px;
+        &:nth-child(1) {
+            width: 103px;
+            margin-bottom: 15px;
+        }
+        &:nth-child(4) {
+            width: 103px;
+        }
+        &:nth-child(2) {
+            width: 128px;
+            margin-bottom: 15px;
+        }
+        &:nth-child(5) {
+            width: 128px;
+        }
+        &:nth-child(3) {
+            width: 145px;
+        }
+}
 }

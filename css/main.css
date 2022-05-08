@@ -96,6 +96,7 @@ textarea::placeholder {
   padding-left: 12.5%;
   padding-right: 12.5%;
   padding-bottom: 0px;
+  flex-direction: row;
   justify-content: space-between;
   justify-items: center;
   flex-basis: 33%;
@@ -216,6 +217,20 @@ textarea::placeholder {
 
 .header-footer__blue {
   color: #2196F3;
+}
+
+.mobile-menu {
+  margin-left: 66%;
+}
+@media (min-width: 481px) {
+  .mobile-menu {
+    visibility: hidden;
+    display: flex;
+  }
+}
+.mobile-menu:hover {
+  cursor: pointer;
+  fill: #2196F3;
 }
 
 .container-head {
@@ -622,6 +637,16 @@ textarea::placeholder {
   padding-top: 100px;
   padding-bottom: 36px;
 }
+@media (max-width: 480px) {
+  .container-button {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 480px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+}
 
 .container-button__button {
   padding: 6px 22px;
@@ -645,6 +670,29 @@ textarea::placeholder {
   line-height: 1.62;
   margin-left: 0px;
   cursor: pointer;
+}
+@media (max-width: 480px) {
+  .container-button__button {
+    padding: 6px auto;
+    height: 38px;
+  }
+  .container-button__button:nth-child(1) {
+    width: 103px;
+    margin-bottom: 15px;
+  }
+  .container-button__button:nth-child(4) {
+    width: 103px;
+  }
+  .container-button__button:nth-child(2) {
+    width: 128px;
+    margin-bottom: 15px;
+  }
+  .container-button__button:nth-child(5) {
+    width: 128px;
+  }
+  .container-button__button:nth-child(3) {
+    width: 145px;
+  }
 }
 
 .container-clients {
@@ -773,6 +821,11 @@ textarea::placeholder {
   width: 1200px;
   flex-wrap: wrap;
 }
+@media (max-width: 480px) {
+  .photo-gallery__flex {
+    width: 450px;
+  }
+}
 
 .photo-gallery__li {
   display: flex;
@@ -796,6 +849,11 @@ textarea::placeholder {
   cursor: pointer;
   animation-name: portfoliochange;
 }
+@media (max-width: 480px) {
+  .photo-gallery__photo {
+    margin: 30px 15px 0px 15px;
+  }
+}
 
 .photo-gallery__animation {
   position: relative;
@@ -803,8 +861,8 @@ textarea::placeholder {
 }
 .photo-gallery__animation:hover::before {
   content: "Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji";
-  width: 370px;
-  height: 294px;
+  width: auto;
+  height: auto;
   background-color: rgba(33, 150, 243, 0.9);
   z-index: 1;
   color: #FFFFFF;
@@ -1120,7 +1178,8 @@ textarea::placeholder {
 }
 @media (max-width: 480px) {
   .container-workers__item {
-    margin-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 .container-workers__item:last-child {
@@ -1130,6 +1189,7 @@ textarea::placeholder {
 .container-workers__shadow {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
+  height: 622px;
 }
 
 .container-workers__name {
@@ -1176,4 +1236,232 @@ textarea::placeholder {
   fill: #FFFFFF;
   stroke: #FFFFFF;
   cursor: pointer;
+}
+
+a {
+  color: #212121;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mobile-menu__body {
+  max-width: 480px;
+  max-height: 796px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-left: 40px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  color: #212121;
+}
+.mobile-menu__body + a {
+  text-decoration: none;
+}
+
+.mobile-menu__header--button {
+  position: absolute;
+  padding: 2px;
+  top: 0px;
+  right: 25.36px;
+}
+.mobile-menu__header--button:hover {
+  cursor: pointer;
+  fill: #2196F3;
+}
+
+.mobile-menu__header {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mobile-menu__header--a {
+  text-decoration: none;
+  margin-bottom: 36px;
+}
+.mobile-menu__header--a:link {
+  color: #212121;
+}
+.mobile-menu__header--a:active {
+  color: #212121;
+}
+.mobile-menu__header--a:hover {
+  cursor: pointer;
+  color: #2196F3;
+}
+.mobile-menu__header--a:last-child {
+  margin-bottom: 302px;
+}
+
+.mobile-menu__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu__main--a {
+  font-weight: 500;
+  font-size: 34px;
+  margin-bottom: 32px;
+  color: #2196F3;
+}
+.mobile-menu__main--a:last-child {
+  font-size: 24px;
+  color: #757575;
+  margin-bottom: 64px;
+}
+.mobile-menu__main--a:hover {
+  cursor: pointer;
+  color: #2196F3;
+}
+
+.mobile-menu__footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-menu__footer--a {
+  margin-right: 9px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #2196F3;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.mobile-menu__footer--a:last-child {
+  margin-right: 0;
+  border-right: none;
+}
+
+a {
+  color: #212121;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mobile-menu__body {
+  max-width: 480px;
+  max-height: 796px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-left: 40px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  color: #212121;
+}
+.mobile-menu__body + a {
+  text-decoration: none;
+}
+
+.mobile-menu__header--button {
+  position: absolute;
+  padding: 2px;
+  top: 0px;
+  right: 25.36px;
+}
+.mobile-menu__header--button:hover {
+  cursor: pointer;
+  fill: #2196F3;
+}
+
+.mobile-menu__header {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mobile-menu__header--a {
+  text-decoration: none;
+  margin-bottom: 36px;
+}
+.mobile-menu__header--a:link {
+  color: #212121;
+}
+.mobile-menu__header--a:active {
+  color: #212121;
+}
+.mobile-menu__header--a:hover {
+  cursor: pointer;
+  color: #2196F3;
+}
+.mobile-menu__header--a:last-child {
+  margin-bottom: 302px;
+}
+
+.mobile-menu__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu__main--a {
+  font-weight: 500;
+  font-size: 34px;
+  margin-bottom: 32px;
+  color: #2196F3;
+}
+.mobile-menu__main--a:last-child {
+  font-size: 24px;
+  color: #757575;
+  margin-bottom: 64px;
+}
+.mobile-menu__main--a:hover {
+  cursor: pointer;
+  color: #2196F3;
+}
+
+.mobile-menu__footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-menu__footer--a {
+  margin-right: 9px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #2196F3;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.mobile-menu__footer--a:last-child {
+  margin-right: 0;
+  border-right: none;
 }

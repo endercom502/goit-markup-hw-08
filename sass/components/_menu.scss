@@ -3,6 +3,7 @@
     padding-left: 12.5%;
     padding-right: 12.5%;
     padding-bottom: 0px;
+    flex-direction: row;
     justify-content: space-between;
     justify-items: center;
     flex-basis: 33%;
@@ -15,7 +16,6 @@
         padding-bottom: 16px;
         padding-top: 16px;
         flex-basis: auto;
-
     }
 }
 .menu-container__nav {
@@ -117,4 +117,17 @@
 
 .header-footer__blue {
     color: getColor(blue-brand);
+}
+.mobile-menu {
+    margin-left: 66%;
+    @media (min-width: 481px) {
+        visibility: hidden;
+        display: flex;
+    }
+    &:hover {
+        cursor: pointer;
+        fill: getColor(blue-brand);
+    }
+}
+.mobile-menu__svg {
 }

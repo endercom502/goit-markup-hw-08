@@ -39,7 +39,8 @@
 .container-workers__item {
     margin-right: 30px;
     @media (max-width: 480px) {
-            margin-right: 0;
+            margin-left: 15px;
+            margin-right: 15px;
         }
     &:last-child {
         margin-right: 0;
@@ -51,6 +52,7 @@
         0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 3px;
+    height: 622px;
 }
 .container-workers__name {
     font-size: 16px;
