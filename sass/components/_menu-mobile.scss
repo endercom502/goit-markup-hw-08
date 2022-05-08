@@ -27,12 +27,28 @@ a:hover {
     margin-top: 48px;
     margin-bottom: 48px;
     color: #212121;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate(50%, 50%);
     & + a {
         text-decoration: none;
     }
+ 
 
 }
+.is-hidden-mobile {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate(50%, 50%);
+}
 .mobile-menu__header--button {
+    border: transparent;
+    background-color: getColor(white-);
     position: absolute;
     padding: 2px;
     top: 0px;

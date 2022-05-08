@@ -13,7 +13,7 @@
     line-height: 1.18;
     padding-top: 94px;
     padding-bottom: 50px;
-    @media (max-width:480px) {
+    @media (max-width: 767px) {
         font-size: 28px;
     }
 }
@@ -23,7 +23,7 @@
     justify-content: center;
     text-align: center;
     list-style: none;
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             flex-direction: column;
         }
 }
@@ -38,7 +38,7 @@
 }
 .container-workers__item {
     margin-right: 30px;
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             margin-left: 15px;
             margin-right: 15px;
         }

@@ -1,6 +1,6 @@
 .offer-gallery {
     
-    @media (max-width:480px) {
+    @media (max-width: 767px) {
             display: none;
     }
 }
@@ -10,7 +10,7 @@
     line-height: 1.18;
     padding-top: 94px;
     padding-bottom: 50px;
-    @media (max-width:480px) {
+    @media (max-width: 767px) {
             font-size: 28px;
 }
 }

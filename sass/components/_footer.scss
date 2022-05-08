@@ -14,7 +14,12 @@
     padding-left: 12.5%;
     padding-right: 12.5%;
 
-    @media (max-width: 480px) {
+    @media (max-width: 767px
+    
+    
+    
+    
+    ) {
         flex-direction: column;
         padding-left: 0;
         align-content: space-between;
@@ -27,14 +32,14 @@
     justify-content: space-around;
     align-content: space-around;
     flex-basis: 100%;
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             flex-direction: column;
             align-content: space-between;
             justify-content: center;
         }
 }
 .footer__adres-div {
-@media (max-width: 480px) {
+@media (max-width: 767px) {
         display: flex;
         flex-direction: column;
         
@@ -44,7 +49,7 @@
     color: #FFFFFF;
 }
 .footer__text {
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -71,7 +76,7 @@
     width: 206px;
     height: 80px;
     margin-left: 70px;
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -89,7 +94,7 @@
     line-height: 16.41px;
     margin-top: 4px;
     margin-bottom: 28px;
-@media (max-width: 480px) {
+@media (max-width: 4767px) {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -124,7 +129,7 @@ list-style: none;
     display: flex;
     flex-direction: row;
     justify-items: left;
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -134,7 +139,7 @@ list-style: none;
         }
 }
 .footer__label {
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -148,7 +153,7 @@ list-style: none;
     transition-property: all;
     transition-duration: 2500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -191,7 +196,7 @@ list-style: none;
     border: 1px solid #2196f3;
     padding: 0;
     margin-top: 45px;
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
             display: flex;
             justify-content: center;
             margin: 0;

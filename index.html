@@ -21,10 +21,10 @@
     <header class="menu-container">
         <a href="/index.html" class="header-footer__logo menu-container__link"><span
                 class="header-footer__blue">Web</span><span>Studio</span></a>
-        <div class="mobile-menu">
-            <a href="./mobile-menu.html"><svg width="40px" height="40px" class="mobile-menu__svg">
+        <div>
+            <button type="button"  class="mobile-menu"><svg width="40px" height="40px" class="mobile-menu__svg">
                 <use href="./images/icons.svg#icon-menu_40px"></use>
-            </svg></a>
+            </svg></button>
         </div>
 
         <nav class="menu-container__nav">
@@ -468,6 +468,31 @@
             </div>
         </div>
     </div>
+    <!-- mobile menu -->
+    <section class="mobile-menu__body is-hidden">
+    
+        <header class="mobile-menu__header">
+            <button type="button" class="mobile-menu__header--button">
+                <svg width="18.67" height="18.67">
+                    <use href="./images/icons.svg#icon-x"></use>
+                </svg>
+            </button>
+            <a href="./index.html" class="mobile-menu__header--a">Agencja</a>
+            <a href="./portfolio.html" class="mobile-menu__header--a">Portfolio</a>
+            <a class="mobile-menu__header--a">Kontakt</a>
+        </header>
+        <main class="mobile-menu__main">
+            <a class="mobile-menu__main--a">+48 111 111 111</a>
+            <a class="mobile-menu__main--a">info@devstudio.com</a>
+        </main>
+        <footer class="mobile-menu__footer">
+            <a class="mobile-menu__footer--a">Instagram</a>
+            <a class="mobile-menu__footer--a">Twitter</a>
+            <a class="mobile-menu__footer--a">Facebook</a>
+            <a class="mobile-menu__footer--a">LinkedIn</a>
+        </footer>
+    </section>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
