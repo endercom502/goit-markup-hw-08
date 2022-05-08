@@ -542,7 +542,6 @@ textarea::placeholder {
 .container-offer__ul {
   display: flex;
   flex-direction: column;
-  list-style: none;
 }
 
 .container-offer__svg {
@@ -572,6 +571,13 @@ textarea::placeholder {
   text-align: center;
   fill-opacity: 1;
   stroke-width: 0;
+  list-style: none;
+}
+.container-offer__src:nth-child(3) {
+  margin: 32.2px 100px 33.11px 100px;
+}
+.container-offer__src.container-offer__src:nth-child(4) {
+  margin: 60.56px 139.9px 47.77px 118.39px;
 }
 @media (max-width: 480px) {
   .container-offer__src {

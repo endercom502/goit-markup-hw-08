@@ -26,16 +26,7 @@
     display: flex;
     flex-direction: column;
     // align-items: center;
-    list-style: none;
-    // &:nth-child(3) {
-    //         margin: 32.2px 100px 33.11px 100px;
-    //     }
-    
-    //     &.container-offer__src:nth-child(4) {
-    //         margin: 60.56px 139.90px 47.77px 118.39px;
-    //     }
-    
-    
+  
 }
 .container-offer__svg {
     position: relative;
@@ -63,6 +54,14 @@
     text-align: center;
     fill-opacity: 1;
     stroke-width: 0;
+    list-style: none;
+    &:nth-child(3) {
+            margin: 32.2px 100px 33.11px 100px;
+        }
+    
+        &.container-offer__src:nth-child(4) {
+            margin: 60.56px 139.90px 47.77px 118.39px;
+        }
     @media (max-width: 480px) {
      margin: 25px 192.34px 25px 192.34px;
    }
