@@ -57,6 +57,16 @@
     @media (max-width: 767px) {
     height: auto;
     width: 450px;
+    & + img {
+        @media (max-width: 767px) {
+            width: 450px;
+            height: 460px;
+        }
+        @media (max-width: 1200px) {
+           width: 354px;
+           height: 374px; 
+        }
+    }
     }
 }
 .container-workers__name {

@@ -256,10 +256,35 @@ textarea::placeholder {
   margin-bottom: 0;
   max-width: 1600px;
 }
+@media (min-device-pixel-ratio: 2) {
+  .container-head .container-head__title {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-1600-600@2x.webp), no-repeat;
+  }
+}
 @media (max-width: 767px) {
   .container-head .container-head__title {
     font-size: 24px;
+    width: 480px;
     height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-480-400@1x.webp), no-repeat;
+  }
+}
+@media (max-width: 767px) and (min-device-pixel-ratio: 2) {
+  .container-head .container-head__title {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-480-400@2x.webp), no-repeat;
+  }
+}
+@media (max-width: 1200px) {
+  .container-head .container-head__title {
+    font-size: 24px;
+    width: 768px;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-768-400@1x.webp), no-repeat;
+  }
+}
+@media (max-width: 1200px) and (min-device-pixel-ratio: 2) {
+  .container-head .container-head__title {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-768-400@2x.webp), no-repeat;
   }
 }
 .container-head .container-head__button {
@@ -1232,6 +1257,18 @@ textarea::placeholder {
   .container-workers__shadow {
     height: auto;
     width: 450px;
+  }
+}
+@media (max-width: 767px) and (max-width: 767px) {
+  .container-workers__shadow + img {
+    width: 450px;
+    height: 460px;
+  }
+}
+@media (max-width: 767px) and (max-width: 1200px) {
+  .container-workers__shadow + img {
+    width: 354px;
+    height: 374px;
   }
 }
 
