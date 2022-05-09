@@ -325,6 +325,8 @@ textarea::placeholder {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(50%, 50%);
+  width: 0;
+  height: 0;
 }
 
 .modal__main {
@@ -883,21 +885,31 @@ textarea::placeholder {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media (max-width: 767px) {
+  .photo-gallery__photo {
+    margin: 30px auto 0px auto;
+  }
+}
 .photo-gallery__photo:nth-child(3n+3) {
   margin-right: 0;
 }
+@media (max-width: 767px) {
+  .photo-gallery__photo:nth-child(3n+3) {
+    margin: 30px auto 0px auto;
+  }
+}
 .photo-gallery__photo:nth-child(1n+7) {
   margin-bottom: 94px;
+}
+@media (max-width: 767px) {
+  .photo-gallery__photo:nth-child(1n+7) {
+    margin: 30px auto 0px auto;
+  }
 }
 .photo-gallery__photo:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.16);
   cursor: pointer;
   animation-name: portfoliochange;
-}
-@media (max-width: 767px) {
-  .photo-gallery__photo {
-    margin: 30px auto 0px auto;
-  }
 }
 
 .photo-gallery__animation {

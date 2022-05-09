@@ -129,48 +129,20 @@
             <ul class="offer-gallery__photo">
                 <div class="offer-gallery__thumb">
                     <li class="container-workers__item"><img src="images/box1.webp" alt="man typing on a laptop"
-                            width="370" height="294" 
-                            srcset="
-                    images/box1-354-294@1x.webp 354w,
-                    images/box1-354-294@2x.webp 708w,
-                    images/box1-370-294@2x.webp 740w,
-                    images/box1.webp 370w,
-                    images/box1-450-294@1x.webp 450w,
-                    images/box1-450-294@2x.webp 900w
-                    "
-                    sizes="(min-width: 480px) 100vw, (min-width: 1200px) 33vw, (min-width: 768px) 50vw" 
-                    />
+                            width="370" height="294" />
                         </li>
                     <p class="offer-gallery__underground">APLIKACJE KOMPUTEROWE</p>
                 </div>
 
                 <div class="offer-gallery__thumb">
                     <li class="container-workers__item"><img src="images/box3.webp" alt="man using a tablet" width="370"
-                            height="294" 
-                            srcset="
-                    images/box3-354-294@1x.webp 354w,
-                    images/box3-354-294@2x.webp 708w,
-                    images/box3-370-294@2x.webp 740w,
-                    images/box3.webp 370w,
-                    images/box3-450-294@1x.webp 450w,
-                    images/box3-450-294@2x.webp 900w
-                    "
-                    sizes="(min-width: 480px) 100vw, (min-width: 1200px) 33vw, (min-width: 768px) 50vw" />
+                            height="294" />
                     </li>
                     <p class="offer-gallery__underground">APLIKACJE MOBILNE</p>
                 </div>
                 <div class="offer-gallery__thumb">
                     <li class="container-workers__item"><img src="images/box2.webp" alt="good" width="370"
-                            height="294" 
-                            srcset="
-                    images/box2-354-294@1x.webp 354w,
-                    images/box2-354-294@2x.webp 708w,
-                    images/box2-370-294@2x.webp 740w,
-                    images/box2.webp 370w,
-                    images/box2-450-294@1x.webp 450w,
-                    images/box2-450-294@2x.webp 900w
-                    "
-                    sizes="(min-width: 480px) 100vw, (min-width: 1200px) 33vw, (min-width: 768px) 50vw" /></li>
+                            height="294" /></li>
                     <p class="offer-gallery__underground">ROZWIĄZANIA GRAFICZNE</p>
                 </div>
             </ul>
@@ -233,8 +205,8 @@
                         <img src="images/frontend_developer.webp" alt="John Doe Frontend developer" width="270"
                             height="260" 
                             srcset="
-                    images/frontend_developer_354-374@1x.webp 354w,
-                    images/frontend_developer_354-374@2x.webp 708w,
+                    images/frontend_developer-354-374@1x.webp 354w,
+                    images/frontend_developer-354-374@2x.webp 708w,
                     images/frontend_developer_270-260@2x.webp 540w,
                     images/frontend_developer.webp 270w,
                     images/frontend_developer_450-460@1x.webp 450w,
@@ -516,10 +488,9 @@
         </div>
     </div>
     <!-- mobile menu -->
-    <section class="content-menu mobile-menu__body is-hidden">
-    
+    <div class="mobile-menu__body is-hidden">
         <header class="mobile-menu__header">
-            <button type="button" class="mobile-menu__header--button end-menu">
+            <button type="button" class="end-menu mobile-menu__header--button">
                 <svg width="18.67" height="18.67">
                     <use href="./images/icons.svg#icon-x"></use>
                 </svg>
@@ -538,8 +509,8 @@
             <a class="mobile-menu__footer--a">Facebook</a>
             <a class="mobile-menu__footer--a">LinkedIn</a>
         </footer>
-    </section>
-    <script src="./js/mobile-menu.js"></script>
+    </div>
+    <script src="../js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 

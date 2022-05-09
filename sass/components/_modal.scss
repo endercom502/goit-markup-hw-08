@@ -22,6 +22,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(50%, 50%);
+    width: 0;
+    height: 0;
 }
 .modal__main {
     width: 528px;
