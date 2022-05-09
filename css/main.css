@@ -857,6 +857,7 @@ textarea::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
 }
 
 .photo-gallery__flex {
@@ -895,7 +896,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .photo-gallery__photo {
-    margin: 30px 15px 0px 15px;
+    margin: 30px auto 0px auto;
   }
 }
 

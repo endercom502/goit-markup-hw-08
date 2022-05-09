@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
 }
 .photo-gallery__flex {
     display: flex;
@@ -33,7 +34,7 @@
         animation-name: portfoliochange;
     }
     @media (max-width: 767px) {
-        margin: 30px 15px 0px 15px;
+        margin: 30px auto 0px auto;
 
     }
 }
