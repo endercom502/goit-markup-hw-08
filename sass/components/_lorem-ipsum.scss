@@ -4,6 +4,9 @@
     flex-basis: 100%;
     justify-content: space-around;
     flex-direction: column;
+    @media (max-width: 767px) {
+        align-items: center;
+    }
 }
 
 .container-offer__div {

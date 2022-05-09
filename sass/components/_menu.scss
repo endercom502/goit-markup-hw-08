@@ -5,17 +5,16 @@
     padding-bottom: 0px;
     flex-direction: row;
     justify-content: space-between;
-    justify-items: center;
     flex-basis: 33%;
     border-bottom: solid 1px getColor(border-menu);
     align-items: center;
     margin-bottom: 0px;
     @media (max-width: 767px) {
-        padding-left: 15px;
-        padding-right: 20px;
-        padding-bottom: 16px;
-        padding-top: 16px;
-        flex-basis: auto;
+        // padding-left: 15px;
+        // padding-bottom: 16px;
+        // padding-top: 16px;
+        flex-basis: 100%;
+        justify-items: center;
     }
 }
 .menu-container__nav {
@@ -112,6 +111,7 @@
     line-height: 1.19;
     @media (max-width: 767px) {
         font-size: 24px;
+        padding-right: 40vw;
     }
 }
 
@@ -121,10 +121,10 @@
 .mobile-menu {
     border: transparent;
     background-color: getColor(white-);
-    margin-left: 300px;
     @media (min-width: 767px) {
         visibility: hidden;
         display: flex;
+        flex-grow: 1;
     }
     &:hover {
         cursor: pointer;
