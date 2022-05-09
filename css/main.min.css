@@ -256,22 +256,9 @@ textarea::placeholder {
   margin-bottom: 0;
   max-width: 1600px;
 }
-@media (min-device-pixel-ratio: 2) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .container-head .container-head__title {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-1600-600@2x.webp), no-repeat;
-  }
-}
-@media (max-width: 767px) {
-  .container-head .container-head__title {
-    font-size: 24px;
-    width: 480px;
-    height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-480-400@1x.webp), no-repeat;
-  }
-}
-@media (max-width: 767px) and (min-device-pixel-ratio: 2) {
-  .container-head .container-head__title {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-480-400@2x.webp), no-repeat;
   }
 }
 @media (max-width: 1200px) {
@@ -282,9 +269,22 @@ textarea::placeholder {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-768-400@1x.webp), no-repeat;
   }
 }
-@media (max-width: 1200px) and (min-device-pixel-ratio: 2) {
+@media (max-width: 1200px) and (min-device-pixel-ratio: 2), (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1200px) and (min-resolution: 192dpi), (max-width: 1200px) and (min-resolution: 2dppx) {
   .container-head .container-head__title {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-768-400@2x.webp), no-repeat;
+  }
+}
+@media (max-width: 1200px) and (max-width: 767px) {
+  .container-head .container-head__title {
+    font-size: 24px;
+    width: 480px;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-480-400@1x.webp), no-repeat;
+  }
+}
+@media (max-width: 1200px) and (max-width: 767px) and (min-device-pixel-ratio: 2), (max-width: 1200px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1200px) and (max-width: 767px) and (min-resolution: 192dpi), (max-width: 1200px) and (max-width: 767px) and (min-resolution: 2dppx) {
+  .container-head .container-head__title {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office-480-400@2x.webp), no-repeat;
   }
 }
 .container-head .container-head__button {
@@ -887,6 +887,15 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .photo-gallery__photo {
+    margin: 30px auto 0px auto;
+  }
+  .photo-gallery__photo:last-child {
+    width: auto;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 767px) and (max-width: 767px) {
+  .photo-gallery__photo:last-child {
     margin: 30px auto 0px auto;
   }
 }

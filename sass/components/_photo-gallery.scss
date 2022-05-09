@@ -25,6 +25,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @media (max-width: 767px) {
         margin: 30px auto 0px auto;
+    &:last-child {
+        width: auto;
+        margin-right: 0px;
+        @media (max-width: 767px) {
+                margin: 30px auto 0px auto;
+            }
+    }
     
     }
     &:nth-child(3n+3) {

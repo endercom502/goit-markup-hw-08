@@ -23,9 +23,26 @@
     margin-top: 0;
     margin-bottom: 0;
     max-width: 1600px;
-    @media (min-device-pixel-ratio: 2) {
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
             background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
                 url(../images/backgrand-people-in-office-1600-600@2x.webp), no-repeat;
+        }
+    @media (max-width: 1200px) {
+        font-size: 24px;
+        width: 768px;
+        height: 400px;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url(../images/backgrand-people-in-office-768-400@1x.webp), no-repeat;
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                url(../images/backgrand-people-in-office-768-400@2x.webp), no-repeat;
         }
     @media (max-width: 767px) {
         font-size: 24px;
@@ -34,22 +51,14 @@
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
                 url(../images/backgrand-people-in-office-480-400@1x.webp), no-repeat;
     
-        @media (min-device-pixel-ratio: 2) {
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
             background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
                     url(../images/backgrand-people-in-office-480-400@2x.webp), no-repeat;
         }
     }
-    @media (max-width: 1200px) {
-        font-size: 24px;
-        width: 768px;
-        height: 400px;
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-            url(../images/backgrand-people-in-office-768-400@1x.webp), no-repeat;
-
-            @media (min-device-pixel-ratio: 2) {
-            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url(../images/backgrand-people-in-office-768-400@2x.webp), no-repeat;
-        }
     }
     }
     .container-head__button {
