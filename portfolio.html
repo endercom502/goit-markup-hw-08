@@ -16,6 +16,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
 <header class="menu-container">
     <a href="/index.html" class="header-footer__logo menu-container__link"><span
             class="header-footer__blue">Web</span><span>Studio</span></a>
@@ -67,10 +68,10 @@
         <ul class="photo-gallery__flex photo-gallery__li">
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img 
+                    <img class="photo-gallery__img" 
                     src="images/1-laptop.webp" 
                     alt="website on laptop monitor" 
-                    width="370" height="294"
+                    width="370" height="294" 
                     srcset="
                     images/laptop-354-294@1x.webp 354w,
                     images/laptop-354-294@2x.webp 708w,
@@ -89,7 +90,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/2-bascetbol-players.webp" alt="basketball players fighting for the ball"
+                    <img class="photo-gallery__img" src="images/2-bascetbol-players.webp" alt="basketball players fighting for the ball"
                         width="370" height="294" 
                         srcset="
                     images/bascetbol-players-354-294@1x.webp 354w,
@@ -106,7 +107,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/3-fish.webp" alt="fish" width="370" height="294" 
+                    <img class="photo-gallery__img" src="images/3-fish.webp" alt="fish" width="370" height="294" 
                     srcset="
                     images/fish-354-294@1x.webp 354w,
                     images/fish-354-294@2x.webp 708w,
@@ -123,7 +124,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/4-headphones.webp" alt="headphones" width="370" height="294" 
+                    <img class="photo-gallery__img" src="images/4-headphones.webp" alt="headphones" width="370" height="294" 
                     srcset="
                     images/headphones-354-294@1x.webp 354w,
                     images/headphones-354-294@2x.webp 708w,
@@ -139,7 +140,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/5-boxes.webp" alt="boxes" width="370" height="294" 
+                    <img class="photo-gallery__img" src="images/5-boxes.webp" alt="boxes" width="370" height="294" 
                     srcset="
                     images/boxes-354-294@1x.webp 354w,
                     images/boxes-354-294@2x.webp 708w,
@@ -155,7 +156,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/6-nonitor-world.webp" alt="monitor world map" width="370" height="294" 
+                    <img class="photo-gallery__img" src="images/6-nonitor-world.webp" alt="monitor world map" width="370" height="294" 
                     srcset="
                     images/nonitor-world-354-294@1x.webp 354w,
                     images/nonitor-world-354-294@2x.webp 708w,
@@ -172,7 +173,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/7-book.webp" alt="magazin" width="370" height="294" 
+                    <img class="photo-gallery__img" src="images/7-book.webp" alt="magazin" width="370" height="294" 
                     srcset="
                     images/book-354-294@1x.webp 354w,
                     images/book-354-294@2x.webp 708w,
@@ -189,7 +190,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/8-label.webp" alt="label" width="370" height="294" 
+                    <img class="photo-gallery__img" src="images/8-label.webp" alt="label" width="370" height="294" 
                     srcset="
                     images/label-354-294@1x.webp 354w,
                     images/label-354-294@2x.webp 708w,
@@ -205,7 +206,7 @@
             </li>
             <li class="photo-gallery__photo photo-gallery__animation">
                 <figure>
-                    <img src="images/9-laptop-hand.webp" alt="magazin" width="370" height="294" srcset="
+                    <img class="photo-gallery__img" src="images/9-laptop-hand.webp" alt="magazin" width="370" height="294" srcset="
                                 images/laptop-hand-354-294@1x.webp 354w,
                                 images/laptop-hand-354-294@2x.webp 708w,
                                 images/laptop-hand-370-294@2x.webp 740w,
@@ -280,4 +281,31 @@
         </div>
     </div>
 </footer>
+<!-- mobile menu -->
+<section class="mobile-menus is-hidden">
+    <div class="mobile-menu--margin">
+        <header class="mobile-menu__header">
+            <button type="button" class="end-menu mobile-menu__header--button">
+                <svg width="18.67" height="18.67">
+                    <use href="./images/icons.svg#icon-x"></use>
+                </svg>
+            </button>
+            <a href="./index.html" class="mobile-menu__header--a">Agencja</a>
+            <a href="./portfolio.html" class="mobile-menu__header--a">Portfolio</a>
+            <a class="mobile-menu__header--a">Kontakt</a>
+        </header>
+        <main class="mobile-menu__main">
+            <a class="mobile-menu__main--a">+48 111 111 111</a>
+            <a class="mobile-menu__main--a">info@devstudio.com</a>
+        </main>
+        <footer class="mobile-menu__footer">
+            <a href="" class="mobile-menu__footer--a">Instagram</a>
+            <a href="" class="mobile-menu__footer--a">Twitter</a>
+            <a href="" class="mobile-menu__footer--a">Facebook</a>
+            <a href="" class="mobile-menu__footer--a">LinkedIn</a>
+        </footer>
+    </div>
+</section>
+<script src="./js/mobile-menu.js"></script>
+</body>
 </html>

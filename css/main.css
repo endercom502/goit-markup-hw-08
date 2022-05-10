@@ -335,6 +335,11 @@ textarea::placeholder {
   background-color: #FFFFFF;
   transform: translate(-50%, -50%);
 }
+@media (max-width: 767px) {
+  .modal__main {
+    width: 450px;
+  }
+}
 
 .modal__close-btn {
   position: absolute;
@@ -368,6 +373,11 @@ textarea::placeholder {
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (max-width: 767px) {
+  .modal__label {
+    width: 370px;
+  }
 }
 
 .modal__form {
@@ -461,6 +471,11 @@ textarea::placeholder {
   color: #2196F3;
   text-decoration: underline;
 }
+@media (max-width: 767px) {
+  .modal__checkbox > a {
+    font-size: 12px;
+  }
+}
 .modal__checkbox:hover input ~ .modal__checkbox-svg {
   background-color: #2196f3;
   border-color: #2196f3;
@@ -477,6 +492,11 @@ textarea::placeholder {
 
 .modal__checkbox-span {
   padding-left: 37px;
+}
+@media (max-width: 767px) {
+  .modal__checkbox-span {
+    font-size: 12px;
+  }
 }
 
 .modal__button {
@@ -859,6 +879,17 @@ textarea::placeholder {
   width: auto;
 }
 
+@media (max-width: 767px) {
+  .photo-gallery__img {
+    width: 450px;
+  }
+}
+@media (max-width: 1200px) {
+  .photo-gallery__img {
+    width: 354px;
+  }
+}
+
 .photo-gallery__flex {
   display: flex;
   list-style: none;
@@ -874,6 +905,11 @@ textarea::placeholder {
 .photo-gallery__li {
   display: flex;
 }
+@media (max-width: 1200px) {
+  .photo-gallery__li {
+    width: 768px;
+  }
+}
 
 .photo-gallery__photo {
   margin-right: 30px;
@@ -886,6 +922,13 @@ textarea::placeholder {
   .photo-gallery__photo {
     margin: 30px auto 0px auto;
   }
+}
+@media (max-width: 767px) and (max-width: 1200px) {
+  .photo-gallery__photo {
+    margin: 30px 15px 0px 15px;
+  }
+}
+@media (max-width: 767px) {
   .photo-gallery__photo:last-child {
     width: auto;
     margin-right: 0px;
@@ -902,6 +945,11 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .photo-gallery__photo:nth-child(3n+3) {
     margin: 30px auto 0px auto;
+  }
+}
+@media (max-width: 1200px) {
+  .photo-gallery__photo:nth-child(3n+3) {
+    margin: 0px 30px 0px 0px;
   }
 }
 .photo-gallery__photo:nth-child(1n+7) {

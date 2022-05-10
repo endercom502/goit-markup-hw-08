@@ -30,6 +30,9 @@
     left: 50%;
     background-color: #FFFFFF;
     transform: translate(-50%, -50%);
+    @media (max-width: 767px) {
+        width: 450px;
+    }
 }
 
 .modal__close-btn {
@@ -61,6 +64,9 @@
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media (max-width: 767px) {
+        width: 370px;
+    }
 }
 .modal__form {
     height: 40px;
@@ -146,6 +152,9 @@
         & > a {
             color: #2196F3;
             text-decoration: underline;
+            @media (max-width: 767px) {
+                font-size: 12px;
+            }
     }
 
     &:hover input~.modal__checkbox-svg {
@@ -164,6 +173,9 @@
 }
 .modal__checkbox-span {
     padding-left: 37px;
+    @media (max-width: 767px) {
+            font-size: 12px;
+    }
 }
 .modal__button {
     background-color: #2196f3;
