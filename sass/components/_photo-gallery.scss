@@ -8,9 +8,11 @@
 .photo-gallery__img {
     @media (max-width: 767px) {
         width: 450px;
+        height: auto;
         }
     @media (max-width: 1200px){
     width: 354px;
+    height: auto;
     }
 }
 .photo-gallery__flex {

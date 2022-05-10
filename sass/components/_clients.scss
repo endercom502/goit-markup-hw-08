@@ -3,6 +3,11 @@
     flex-basis: 100%;
     justify-content: center;
     flex-direction: column;
+    @media (max-width: 1200px) {
+        &{
+            flex-wrap: wrap;
+        }
+    }
     @media (max-width:767px) {
         width: auto;
         align-items: center;

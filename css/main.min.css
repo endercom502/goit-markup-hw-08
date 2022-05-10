@@ -93,8 +93,7 @@ textarea::placeholder {
 }
 .menu-container {
   display: flex;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
+  margin-left: 215px;
   padding-bottom: 0px;
   flex-direction: row;
   justify-content: space-between;
@@ -103,12 +102,19 @@ textarea::placeholder {
   align-items: center;
   margin-bottom: 0px;
 }
+@media (max-width: 1200px) {
+  .menu-container {
+    margin-left: 15px;
+  }
+}
 @media (max-width: 767px) {
   .menu-container {
     flex-basis: 100%;
     justify-items: center;
+    margin-left: 15px;
   }
 }
+
 .menu-container__nav {
   display: flex;
   flex-direction: row;
@@ -153,11 +159,15 @@ textarea::placeholder {
   margin-top: 0px;
 }
 
+.menu-container__contact {
+  display: flex;
+  flex-direction: row;
+}
 @media (max-width: 1200px) {
   .menu-container__contact {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 50px;
   }
 }
 
@@ -204,6 +214,11 @@ textarea::placeholder {
   fill: #757575;
   padding-left: 5px;
 }
+@media (max-width: 1200px) {
+  .menu-container__tel {
+    padding-left: 0;
+  }
+}
 
 .header-footer__logo {
   align-self: center;
@@ -222,6 +237,7 @@ textarea::placeholder {
   .header-footer__logo {
     font-size: 24px;
     margin-left: 15px;
+    margin-right: 40px;
   }
 }
 
@@ -236,7 +252,7 @@ textarea::placeholder {
 @media (min-width: 767px) {
   .mobile-menu {
     visibility: hidden;
-    display: flex;
+    display: none;
     flex-grow: 1;
   }
 }
@@ -528,6 +544,11 @@ textarea::placeholder {
   border: 1px solid #2196f3;
 }
 
+@media (max-width: 1200px) {
+  .offer-gallery {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .offer-gallery {
     display: none;
@@ -590,6 +611,12 @@ textarea::placeholder {
   justify-content: space-around;
   flex-direction: column;
 }
+@media (max-width: 1200px) {
+  .container-offer {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
 @media (max-width: 767px) {
   .container-offer {
     align-items: center;
@@ -601,6 +628,12 @@ textarea::placeholder {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 94px;
+}
+@media (max-width: 1200px) {
+  .container-offer__div {
+    flex-wrap: wrap;
+    width: 768px;
+  }
 }
 @media (max-width: 767px) {
   .container-offer__div {
@@ -625,6 +658,13 @@ textarea::placeholder {
   margin-bottom: 30px;
   margin-top: 94px;
   border-radius: 4px;
+}
+@media (max-width: 1200px) {
+  .container-offer__svg {
+    width: 354px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 @media (max-width: 767px) {
   .container-offer__svg {
@@ -663,6 +703,13 @@ textarea::placeholder {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+@media (max-width: 1200px) {
+  .container-offer__text {
+    width: 354px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 @media (max-width: 767px) {
   .container-offer__text {
@@ -762,6 +809,11 @@ textarea::placeholder {
   flex-basis: 100%;
   justify-content: center;
   flex-direction: column;
+}
+@media (max-width: 1200px) {
+  .container-clients {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 767px) {
   .container-clients {
@@ -895,11 +947,13 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .photo-gallery__img {
     width: 450px;
+    height: auto;
   }
 }
 @media (max-width: 1200px) {
   .photo-gallery__img {
     width: 354px;
+    height: auto;
   }
 }
 
@@ -1036,6 +1090,11 @@ textarea::placeholder {
   padding-left: 12.5%;
   padding-right: 12.5%;
   flex-basis: 100%;
+}
+@media (max-width: 1200px) {
+  .footer {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 767px) {
   .footer {
@@ -1292,12 +1351,33 @@ textarea::placeholder {
   }
 }
 
+@media (max-width: 1200px) {
+  .container-workers--img {
+    width: 354px;
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+  .container-workers--img {
+    width: 450px;
+    height: auto;
+  }
+}
+
 .container-workers_photos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
   list-style: none;
+}
+@media (max-width: 1200px) {
+  .container-workers_photos {
+    flex-wrap: wrap;
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 767px) {
   .container-workers_photos {
@@ -1327,6 +1407,11 @@ textarea::placeholder {
 }
 .container-workers__item:last-child {
   margin-right: 0;
+}
+@media (max-width: 1200px) {
+  .container-workers__item:last-child {
+    margin-right: auto;
+  }
 }
 @media (max-width: 767px) {
   .container-workers__item:last-child {

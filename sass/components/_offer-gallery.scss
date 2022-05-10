@@ -1,5 +1,9 @@
 .offer-gallery {
-    
+    @media (max-width: 1200px) {
+        & {
+            display: none;
+        }
+    }
     @media (max-width: 767px) {
             display: none;
     }
