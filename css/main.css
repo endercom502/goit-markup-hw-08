@@ -973,8 +973,6 @@ textarea::placeholder {
   padding-top: 60px;
   padding-bottom: 60px;
   width: auto;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
   flex-basis: 100%;
 }
 @media (max-width: 767px) {
