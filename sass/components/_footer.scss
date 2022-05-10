@@ -9,18 +9,17 @@
     align-items: flex-start;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: auto;
-    // padding-left: 12.5%;
-    // padding-right: 12.5%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
     flex-basis: 100%;
 
     @media (max-width: 767px) {
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        padding-left: auto;
-        padding-right: auto;
-            }
+        margin-left: auto;
+        margin-right: auto;
+        }
     }
 .footer__logo {
     align-self: center;
