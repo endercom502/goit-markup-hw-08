@@ -87,8 +87,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: 120px;
-            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
             align-content: center;
             margin-bottom: 60px;
         }
@@ -105,7 +105,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: auto;
         margin-bottom: 20px;
 
     }
@@ -141,7 +141,7 @@ list-style: none;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin: 0;
+            margin: auto;
     
         }
 }
@@ -165,7 +165,7 @@ list-style: none;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin: 0;
+            margin: auto;
     
         }
 }
@@ -206,11 +206,15 @@ list-style: none;
     @media (max-width: 767px) {
             display: flex;
             justify-content: center;
-            margin: 0;
+            margin: auto;
+            padding: auto;
     
         }
 }
 .footer__span {
     padding-left: 42px;
     padding-right: 24px;
+    @media (max-width: 767px) {
+        padding: auto;
+    }
 }
