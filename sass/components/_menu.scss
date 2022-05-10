@@ -12,6 +12,9 @@
     @media (max-width: 767px) {
         flex-basis: 100%;
         justify-items: center;
+    @media (max-width: 1200px) {
+        
+    }
     }
 }
 .menu-container__nav {
@@ -53,7 +56,13 @@
     justify-items: center;
     margin-top: 0px;
 }
-
+.menu-container__contact {
+    @media (max-width: 1200px) {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+        }
+}
 .menu-container__link {
     color: #212121;
     padding: 0;
@@ -109,6 +118,10 @@
     @media (max-width: 767px) {
         font-size: 24px;
         padding-right: 40vw;
+    }
+    @media (max-width: 1200px) {
+        font-size: 24px;
+        margin-left: 15px;
     }
 }
 

@@ -109,7 +109,6 @@ textarea::placeholder {
     justify-items: center;
   }
 }
-
 .menu-container__nav {
   display: flex;
   flex-direction: row;
@@ -152,6 +151,14 @@ textarea::placeholder {
   width: 300px;
   justify-items: center;
   margin-top: 0px;
+}
+
+@media (max-width: 1200px) {
+  .menu-container__contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
 }
 
 .menu-container__link {
@@ -209,6 +216,12 @@ textarea::placeholder {
   .header-footer__logo {
     font-size: 24px;
     padding-right: 40vw;
+  }
+}
+@media (max-width: 1200px) {
+  .header-footer__logo {
+    font-size: 24px;
+    margin-left: 15px;
   }
 }
 
