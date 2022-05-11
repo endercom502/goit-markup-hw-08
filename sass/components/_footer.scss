@@ -59,6 +59,7 @@
             align-content: space-between;
             justify-content: center;
             align-items: center;
+            flex-wrap: nowrap;
         }
 }
 .footer__adres-div {
@@ -230,9 +231,6 @@ list-style: none;
     @media (max-width: 1200px) {
         width: 450px;
     }
-    @media (max-width: 767px) {
-        width: 450px;
-    }
     &:hover {
         border-color: #2196f3;
     }
@@ -260,27 +258,8 @@ list-style: none;
     border: 1px solid #2196f3;
     padding: 0;
     margin-top: 45px;
-    @media (max-width: 1200px) {
-            display: flex;
-            justify-content: center;
-            margin: auto;
-            padding: auto;
-        }
-    @media (max-width: 767px) {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        padding: auto;
-
-    }
 }
 .footer__span {
     padding-left: 42px;
     padding-right: 24px;
-    @media (max-width: 1200px) {
-        padding: auto;
-    }
-        @media (max-width: 767px) {
-            padding: auto;
-        }
     }

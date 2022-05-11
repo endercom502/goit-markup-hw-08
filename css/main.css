@@ -1250,6 +1250,7 @@ textarea::placeholder {
     align-content: space-between;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
   }
 }
 
@@ -1455,11 +1456,6 @@ textarea::placeholder {
     width: 450px;
   }
 }
-@media (max-width: 767px) {
-  .footer__input {
-    width: 450px;
-  }
-}
 .footer__input:hover {
   border-color: #2196f3;
 }
@@ -1488,36 +1484,10 @@ textarea::placeholder {
   padding: 0;
   margin-top: 45px;
 }
-@media (max-width: 1200px) {
-  .footer__button {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: auto;
-  }
-}
-@media (max-width: 767px) {
-  .footer__button {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: auto;
-  }
-}
 
 .footer__span {
   padding-left: 42px;
   padding-right: 24px;
-}
-@media (max-width: 1200px) {
-  .footer__span {
-    padding: auto;
-  }
-}
-@media (max-width: 767px) {
-  .footer__span {
-    padding: auto;
-  }
 }
 
 .container-workers {
