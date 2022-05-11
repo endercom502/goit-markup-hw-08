@@ -102,18 +102,16 @@
                 margin-left: 15px;
                 margin-right: 15px;
             }
+        }
     @media (max-width: 767px) {
         &{
             margin-left: auto;
             margin-right: auto;
-        }
-    }
-        }
-    @media (max-width: 767px) {
             width: 450px;
             height: 50px;
             text-align: center;
         }
+    }
 }
 
 .container-offer__header {

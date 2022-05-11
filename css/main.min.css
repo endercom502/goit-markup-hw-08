@@ -109,11 +109,23 @@ textarea::placeholder {
     margin-right: 15px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) and (max-width: 767px) {
   .menu-container {
-    flex-basis: 100%;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-container--div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-items: center;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
   }
 }
 
@@ -229,17 +241,17 @@ textarea::placeholder {
   font-size: 26px;
   line-height: 1.19;
 }
-@media (max-width: 767px) {
-  .header-footer__logo {
-    font-size: 24px;
-    padding-right: 40vw;
-  }
-}
 @media (max-width: 1200px) {
   .header-footer__logo {
     font-size: 24px;
     margin-left: 15px;
     margin-right: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .header-footer__logo {
+    font-size: 24px;
+    padding-right: 224px;
   }
 }
 
@@ -255,7 +267,11 @@ textarea::placeholder {
   .mobile-menu {
     visibility: hidden;
     display: none;
-    flex-grow: 1;
+  }
+}
+@media (max-width: 767px) {
+  .mobile-menu {
+    display: flex;
   }
 }
 .mobile-menu:hover {
@@ -713,14 +729,10 @@ textarea::placeholder {
     margin-right: 15px;
   }
 }
-@media (max-width: 1200px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .container-offer__text {
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media (max-width: 767px) {
-  .container-offer__text {
     width: 450px;
     height: 50px;
     text-align: center;
@@ -818,12 +830,14 @@ textarea::placeholder {
   justify-content: center;
   flex-direction: column;
 }
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
   .container-clients {
-    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    align-content: center;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .container-clients {
     width: auto;
     align-items: center;
@@ -843,6 +857,12 @@ textarea::placeholder {
     width: auto;
   }
 }
+@media (max-width: 1200px) {
+  .container-clients__parent {
+    align-content: center;
+    width: auto;
+  }
+}
 
 .container-clients__title {
   text-align: center;
@@ -856,6 +876,16 @@ textarea::placeholder {
     font-size: 28px;
   }
 }
+@media (max-width: 767px) {
+  .container-clients__title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-clients__title {
+    font-size: 28px;
+  }
+}
 
 .container-clients__photo {
   display: flex;
@@ -863,11 +893,20 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   list-style: none;
+  width: auto;
+}
+@media (max-width: 1200px) {
+  .container-clients__photo {
+    flex-wrap: wrap;
+    justify-items: center;
+    width: 768px;
+  }
 }
 @media (max-width: 767px) {
   .container-clients__photo {
     flex-wrap: wrap;
     justify-items: center;
+    width: 460px;
   }
 }
 
@@ -886,6 +925,13 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-clients__svg {
     margin: auto;
+    width: 212px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-clients__svg {
+    margin: auto;
+    width: 228px;
   }
 }
 .container-clients__svg:hover {
@@ -900,9 +946,19 @@ textarea::placeholder {
     margin: 14px 14px 14px auto;
   }
 }
+@media (max-width: 1200px) {
+  .container-clients__svg:nth-child(odd) {
+    margin: 14px 14px 14px auto;
+  }
+}
 @media (max-width: 767px) {
   .container-clients__svg:nth-child(even) {
     margin: 14px auto 14px 14px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-clients__svg:nth-child(even) {
+    margin: 14px 14px 14px auto;
   }
 }
 @media (max-width: 767px) {
@@ -934,6 +990,16 @@ textarea::placeholder {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media (max-width: 1200px) {
+  .container-clients__graphics {
+    margin: 16px 60px;
+  }
+}
+@media (max-width: 767px) {
+  .container-clients__graphics {
+    margin: 16px 52px;
+  }
+}
 .container-clients__graphics:hover {
   fill: #2196F3;
   border: 1px solid #2196F3;
@@ -943,6 +1009,16 @@ textarea::placeholder {
 }
 .container-clients__graphics:nth-child(2n+1) {
   margin: 16px 32px;
+}
+@media (max-width: 1200px) {
+  .container-clients__graphics:nth-child(2n+1) {
+    margin: 16px 60px;
+  }
+}
+@media (max-width: 767px) {
+  .container-clients__graphics:nth-child(2n+1) {
+    margin: 16px 52px;
+  }
 }
 
 .photo-gallery {
@@ -993,18 +1069,23 @@ textarea::placeholder {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media (max-width: 767px) {
-  .photo-gallery__photo {
-    margin: 30px auto 0px auto;
-  }
-}
 @media (max-width: 1200px) {
   .photo-gallery__photo {
     margin: 30px 15px 0px 15px;
   }
 }
+@media (max-width: 767px) {
+  .photo-gallery__photo {
+    margin: 30px auto 0px auto;
+  }
+}
 .photo-gallery__photo:nth-child(3n+3) {
   margin-right: 0px;
+}
+@media (max-width: 1200px) {
+  .photo-gallery__photo:nth-child(3n+3) {
+    margin: 30px auto 0px auto;
+  }
 }
 @media (max-width: 767px) {
   .photo-gallery__photo:nth-child(3n+3) {
@@ -1012,22 +1093,17 @@ textarea::placeholder {
     margin-left: auto;
   }
 }
-@media (max-width: 1200px) {
-  .photo-gallery__photo:nth-child(3n+3) {
-    margin: 0px 30px 0px 0px;
-  }
-}
 .photo-gallery__photo:nth-child(1n+7) {
   margin-bottom: 94px;
-}
-@media (max-width: 767px) {
-  .photo-gallery__photo:nth-child(1n+7) {
-    margin: 30px auto 0px auto;
-  }
 }
 @media (max-width: 1200px) {
   .photo-gallery__photo:nth-child(1n+7) {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .photo-gallery__photo:nth-child(1n+7) {
+    margin-bottom: 0px;
   }
 }
 .photo-gallery__photo:last-child {
@@ -1036,13 +1112,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .photo-gallery__photo:last-child {
-    margin: 0px auto 30px auto;
-  }
-}
-@media (max-width: 1200px) {
-  .photo-gallery__photo:last-child {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 30px auto 30px auto;
   }
 }
 .photo-gallery__photo:hover {
@@ -1109,11 +1179,6 @@ textarea::placeholder {
   padding-right: 12.5%;
   flex-basis: 100%;
 }
-@media (max-width: 1200px) {
-  .footer {
-    flex-wrap: wrap;
-  }
-}
 @media (max-width: 767px) {
   .footer {
     flex-direction: column;
@@ -1121,6 +1186,11 @@ textarea::placeholder {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media (max-width: 1200px) {
+  .footer {
+    flex-wrap: wrap;
   }
 }
 
