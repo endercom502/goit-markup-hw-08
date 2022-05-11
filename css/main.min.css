@@ -669,8 +669,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-offer__svg {
     width: 450px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -711,6 +711,12 @@ textarea::placeholder {
     margin-right: 15px;
   }
 }
+@media (max-width: 1200px) and (max-width: 767px) {
+  .container-offer__text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (max-width: 767px) {
   .container-offer__text {
     width: 450px;
@@ -733,8 +739,8 @@ textarea::placeholder {
   .container-offer__content {
     padding-bottom: 30px;
     text-align: justify;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1382,6 +1388,7 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-workers_photos {
     flex-direction: column;
+    width: 460px;
   }
 }
 
