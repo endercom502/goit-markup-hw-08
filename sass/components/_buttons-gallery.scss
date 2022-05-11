@@ -4,6 +4,10 @@
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 36px;
+    @media (max-width: 1200px) {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
 
     @media (max-width: 767px) {
         padding-top: 60px;

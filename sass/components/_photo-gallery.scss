@@ -72,6 +72,11 @@
          &:last-child {
              width: auto;
              margin-right: 0px;
+    @media (max-width: 1200px) {
+        margin-right: auto;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
     @media (max-width: 767px) {
     & {
         margin: 30px auto 30px auto;
