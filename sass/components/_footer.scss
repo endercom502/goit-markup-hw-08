@@ -55,6 +55,7 @@
         width: 768px;
     }
     @media (max-width: 767px) {
+            width: 480px;
             flex-direction: column;
             align-content: space-between;
             justify-content: center;

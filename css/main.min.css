@@ -31,7 +31,7 @@ body {
   color: #212121;
   font-size: 14px;
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   body {
     overflow-x: hidden;
   }
@@ -1246,6 +1246,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .footer__div {
+    width: 480px;
     flex-direction: column;
     align-content: space-between;
     justify-content: center;
