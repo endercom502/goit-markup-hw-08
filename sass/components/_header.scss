@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    @media (max-width: 767px) {
+    width: 480px;
+    }
     .container-head__title {
     background-color: #2f303a;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),

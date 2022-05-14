@@ -281,6 +281,11 @@ textarea::placeholder {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .container-head {
+    width: 480px;
+  }
+}
 .container-head .container-head__title {
   background-color: #2f303a;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgrand-people-in-office.webp), no-repeat;
@@ -635,6 +640,7 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-offer {
     align-items: center;
+    width: 480px;
   }
 }
 
