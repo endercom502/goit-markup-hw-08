@@ -31,9 +31,9 @@ body {
   color: #212121;
   font-size: 14px;
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   body {
-    overflow-x: hidden;
+    overflow-x: auto;
   }
 }
 
@@ -115,14 +115,15 @@ textarea::placeholder {
   }
 }
 
+.menu-container--div {
+  max-width: 400px;
+}
 @media (max-width: 767px) {
   .menu-container--div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: space-between;
   }
 }
@@ -848,7 +849,7 @@ textarea::placeholder {
 }
 @media (max-width: 1200px) {
   .container-clients {
-    width: auto;
+    width: 480px;
     align-items: center;
     align-content: center;
   }
@@ -1212,6 +1213,7 @@ textarea::placeholder {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    width: 480px;
   }
 }
 
@@ -1501,6 +1503,11 @@ textarea::placeholder {
   flex-direction: column;
   background-color: #F5F4FA;
   margin-top: 94px;
+}
+@media (max-width: 767px) {
+  .container-workers {
+    width: 480px;
+  }
 }
 
 .container-workers_title {

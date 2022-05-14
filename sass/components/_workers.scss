@@ -5,7 +5,9 @@
     flex-direction: column;
     background-color: #F5F4FA;
     margin-top: 94px;
-    
+    @media (max-width: 767px) {
+        width: 480px;
+    }
 }
 .container-workers_title {
     text-align: center;
