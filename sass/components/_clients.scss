@@ -82,14 +82,16 @@
     transition-property: border, cursor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    @media (max-width: 767px) {
-        margin: auto;
-        width: 100vw;
-        max-width: 212px;
-    }
+    
         @media (max-width: 1200px) {
             margin: auto;
             width: 228px;
+        }
+        @media (max-width: 767px) {
+            margin: auto;
+            width: 45vw;
+            max-width: 172px;
+            max-height: 92px;
         }
     &:hover {
         border: solid 1px #2196F3;
