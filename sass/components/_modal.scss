@@ -8,7 +8,9 @@
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+@media (max-width: 767px) {
+        width: 100vw;
+    }
     
 }
 .is-hidden {
@@ -31,10 +33,16 @@
     background-color: #FFFFFF;
     transform: translate(-50%, -50%);
     @media (max-width: 767px) {
-        width: 450px;
+        width: 95vw;
+        max-width: 450px;
     }
 }
-
+.modal__textarea--label {
+@media (max-width: 767px) {
+    width: 80vw;
+    max-width: 370px;
+}
+}
 .modal__close-btn {
     position: absolute;
     top: 8px;
@@ -65,7 +73,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @media (max-width: 767px) {
-        width: 370px;
+        width: 80vw;
+        max-width: 370px;
     }
 }
 .modal__form {
@@ -109,6 +118,10 @@
     &:focus {
         border: 1px solid #2196F3;
     }
+    // @media (max-width: 767px) {
+    //     width: 72vw;
+    //     max-width: 370px;
+    // }
 }
 .modal__checkbox-input {
     position: absolute;
@@ -154,6 +167,7 @@
             text-decoration: underline;
             @media (max-width: 767px) {
                 font-size: 12px;
+                width: 80vw;
             }
     }
 
@@ -191,4 +205,9 @@
     margin-top: 2px;
     margin-left: 124px;
     border: 1px solid #2196f3;
+@media (max-width: 767px) {
+        width: 80vw;
+        max-width: 200px;
+        margin: auto;
+    }
 }

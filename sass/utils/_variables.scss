@@ -52,7 +52,7 @@ form {
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    }
 label {
     display: flex;
     margin-bottom: 10px;
@@ -62,7 +62,7 @@ label {
     transition-property: all;
     transition-duration: 2500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+    
 &:hover {
     fill: #2196F3;
     cursor: pointer;

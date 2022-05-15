@@ -375,6 +375,11 @@ textarea::placeholder {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media (max-width: 767px) {
+  .modal__backdrop {
+    width: 100vw;
+  }
+}
 
 .is-hidden {
   opacity: 0;
@@ -399,7 +404,15 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .modal__main {
-    width: 450px;
+    width: 95vw;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal__textarea--label {
+    width: 80vw;
+    max-width: 370px;
   }
 }
 
@@ -438,7 +451,8 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .modal__label {
-    width: 370px;
+    width: 80vw;
+    max-width: 370px;
   }
 }
 
@@ -536,6 +550,7 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .modal__checkbox > a {
     font-size: 12px;
+    width: 80vw;
   }
 }
 .modal__checkbox:hover input ~ .modal__checkbox-svg {
@@ -575,6 +590,13 @@ textarea::placeholder {
   margin-top: 2px;
   margin-left: 124px;
   border: 1px solid #2196f3;
+}
+@media (max-width: 767px) {
+  .modal__button {
+    width: 80vw;
+    max-width: 200px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 1200px) {
