@@ -112,10 +112,14 @@ textarea::placeholder {
 @media (max-width: 1200px) and (max-width: 767px) {
   .menu-container {
     display: block;
+    width: 100vw;
+    max-width: 450px;
+    margin: auto;
   }
 }
 
 .menu-container--div {
+  width: 100vw;
   max-width: 450px;
 }
 @media (max-width: 767px) {
@@ -126,6 +130,10 @@ textarea::placeholder {
     justify-items: center;
     justify-content: space-between;
   }
+}
+
+.menu-container__logo--div {
+  margin: auto;
 }
 
 .menu-container__nav {
@@ -250,6 +258,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .header-footer__logo {
     font-size: 24px;
+    width: 100vw;
+    max-width: 450px;
   }
 }
 
@@ -284,7 +294,8 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-head {
-    width: 480px;
+    width: 100vw;
+    max-width: 480px;
   }
 }
 .container-head .container-head__title {
@@ -641,7 +652,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-offer {
     align-items: center;
-    width: 480px;
+    width: 100vw;
+    max-width: 480px;
   }
 }
 
@@ -660,7 +672,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-offer__div {
     flex-direction: column;
-    width: 480px;
+    width: 100vw;
+    max-width: 480px;
   }
 }
 
@@ -690,7 +703,8 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-offer__svg {
-    width: 450px;
+    width: 100vw;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -713,7 +727,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-offer__src {
-    margin: 25px 192.34px 25px 192.34px;
+    margin: auto;
   }
 }
 
@@ -737,7 +751,8 @@ textarea::placeholder {
   .container-offer__text {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    max-width: 450px;
+    width: 100vw;
     height: 50px;
     text-align: center;
   }
@@ -840,16 +855,17 @@ textarea::placeholder {
   justify-content: center;
   flex-direction: column;
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .container-clients {
-    width: auto;
+    width: 480px;
     align-items: center;
     align-content: center;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
   .container-clients {
-    width: 480px;
+    width: 100vw;
+    max-width: 480px;
     align-items: center;
     align-content: center;
   }
@@ -864,7 +880,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-clients__parent {
     align-content: center;
-    width: auto;
+    width: 100vw;
+    max-width: 480px;
   }
 }
 @media (max-width: 1200px) {
@@ -903,7 +920,7 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   list-style: none;
-  width: auto;
+  width: 100vw;
 }
 @media (max-width: 1200px) {
   .container-clients__photo {
@@ -916,7 +933,8 @@ textarea::placeholder {
   .container-clients__photo {
     flex-wrap: wrap;
     justify-items: center;
-    width: 460px;
+    width: 100vw;
+    max-width: 460px;
   }
 }
 
@@ -935,7 +953,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-clients__svg {
     margin: auto;
-    width: 212px;
+    width: 100vw;
+    max-width: 212px;
   }
 }
 @media (max-width: 1200px) {
@@ -983,7 +1002,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-clients__svg {
-    width: 212px;
+    max-width: 212px;
   }
 }
 
@@ -1007,7 +1026,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-clients__graphics {
-    margin: 16px 52px;
+    margin: auto;
   }
 }
 .container-clients__graphics:hover {
@@ -1213,7 +1232,8 @@ textarea::placeholder {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 480px;
+    width: 100vw;
+    max-width: 480px;
   }
 }
 
@@ -1246,12 +1266,13 @@ textarea::placeholder {
 @media (max-width: 1200px) {
   .footer__div {
     flex-wrap: wrap;
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media (max-width: 767px) {
   .footer__div {
-    width: 480px;
+    width: 100vw;
+    max-width: 480px;
     flex-direction: column;
     align-content: space-between;
     justify-content: center;
@@ -1304,6 +1325,12 @@ textarea::placeholder {
   font-style: normal;
   margin-top: 20px;
 }
+@media (max-width: 767px) {
+  .footer__adres {
+    width: 90vw;
+    text-align: center;
+  }
+}
 
 .footer__adres-next-line {
   color: rgba(255, 255, 255, 0.6);
@@ -1327,6 +1354,9 @@ textarea::placeholder {
     margin-right: auto;
     align-content: center;
     margin-bottom: 60px;
+    width: 100vw;
+    max-width: 206px;
+    height: auto;
   }
 }
 
@@ -1402,6 +1432,7 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     margin: auto;
+    width: 100vw;
   }
 }
 
@@ -1446,6 +1477,8 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     margin: auto;
+    width: 90vw;
+    max-width: 358px;
   }
 }
 
@@ -1459,7 +1492,14 @@ textarea::placeholder {
 }
 @media (max-width: 1200px) {
   .footer__input {
-    width: 450px;
+    width: 90vw;
+    max-width: 358px;
+  }
+}
+@media (max-width: 767px) {
+  .footer__input {
+    width: 90vw;
+    max-width: 358px;
   }
 }
 .footer__input:hover {
@@ -1490,6 +1530,12 @@ textarea::placeholder {
   padding: 0;
   margin-top: 45px;
 }
+@media (max-width: 767px) {
+  .footer__button {
+    width: 90vw;
+    max-width: 200px;
+  }
+}
 
 .footer__span {
   padding-left: 42px;
@@ -1506,7 +1552,8 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-workers {
-    width: 480px;
+    width: 100vw;
+    max-width: 480px;
   }
 }
 
@@ -1531,7 +1578,8 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-workers--img {
-    width: 450px;
+    width: 100vw;
+    max-width: 450px;
     height: auto;
   }
 }
@@ -1554,7 +1602,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-workers_photos {
     flex-direction: column;
-    width: 460px;
+    width: 100vw;
+    max-width: 460px;
   }
 }
 
@@ -1563,7 +1612,7 @@ textarea::placeholder {
   padding-bottom: 30px;
   margin-bottom: 94px;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container-workers__figure-ground > li > figure {
     margin-bottom: 30px;
   }
@@ -1599,7 +1648,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-workers__shadow {
     height: auto;
-    width: 450px;
+    width: 100vw;
+    max-width: 450px;
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {

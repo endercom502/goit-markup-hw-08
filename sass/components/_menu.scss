@@ -16,11 +16,15 @@
         }
     @media (max-width: 767px) {
         display: block;
+        width: 100vw;
+        max-width: 450px;
+        margin: auto;
         
     }
     }
 }
     .menu-container--div {
+        width: 100vw;
         max-width: 450px;
     @media (max-width: 767px) {
         display: flex;
@@ -31,6 +35,9 @@
         
         }
     }
+.menu-container__logo--div {
+    margin: auto;
+}
 .menu-container__nav {
     display: flex;
     flex-direction: row;
@@ -144,6 +151,8 @@
     }
     @media (max-width: 767px) {
         font-size: 24px;
+        width: 100vw;
+        max-width: 450px;
     }
 }
 

@@ -13,7 +13,8 @@
     @media (max-width: 767px) {
         & {
         align-items: center;
-        width: 480px;
+        width: 100vw;
+        max-width: 480px;
         }
     }
     
@@ -33,7 +34,8 @@
     @media (max-width: 767px) {
         & {
             flex-direction: column;
-            width: 480px;
+            width: 100vw;
+            max-width: 480px;
         }
         }
     
@@ -63,7 +65,8 @@
     }
     @media (max-width: 767px) {
         & {
-        width: 450px;
+        width: 100vw;
+        max-width: 450px;
         margin-left: auto;
         margin-right: auto;
         }
@@ -86,7 +89,8 @@
             margin: 60.56px 139.90px 47.77px 118.39px;
         }
     @media (max-width: 767px) {
-     margin: 25px 192.34px 25px 192.34px;
+    //  margin: 25px 192.34px 25px 192.34px;
+        margin: auto;
    }
 }
 .container-offer__text {
@@ -108,7 +112,8 @@
         &{
             margin-left: auto;
             margin-right: auto;
-            width: 450px;
+            max-width: 450px;
+            width: 100vw;
             height: 50px;
             text-align: center;
         }

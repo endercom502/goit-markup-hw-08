@@ -28,7 +28,8 @@
             justify-content: center;
             margin-left: auto;
             margin-right: auto;
-            width: 480px;
+            width: 100vw;
+            max-width: 480px;
         }
 }
 .footer__logo {
@@ -53,10 +54,11 @@
     margin: auto;
     @media (max-width: 1200px) {
         flex-wrap: wrap;
-        width: 768px;
+        max-width: 768px;
     }
     @media (max-width: 767px) {
-            width: 480px;
+            width: 100vw;
+            max-width: 480px;
             flex-direction: column;
             align-content: space-between;
             justify-content: center;
@@ -100,6 +102,10 @@
     color: white;
     font-style: normal;
     margin-top: 20px;
+    @media (max-width: 767px) {
+        width: 90vw;
+        text-align: center;
+    }
 }
 .footer__adres-next-line {
     color: rgba(255, 255, 255, 0.6);
@@ -120,6 +126,9 @@
             margin-right: auto;
             align-content: center;
             margin-bottom: 60px;
+            width: 100vw;
+            max-width: 206px;
+            height: auto;
         }
 }
 .footer__h {
@@ -184,6 +193,7 @@ list-style: none;
             justify-content: center;
             align-items: center;
             margin: auto;
+            width: 100vw;
         }
 }
 .footer__label {
@@ -220,7 +230,8 @@ list-style: none;
         justify-content: center;
         align-items: center;
         margin: auto;
-
+        width: 90vw;
+        max-width: 358px;
     }
 }
 .footer__input {
@@ -231,7 +242,12 @@ list-style: none;
     border-radius: 4px;
     margin-top: 20px;
     @media (max-width: 1200px) {
-        width: 450px;
+        width: 90vw;
+        max-width: 358px;
+    }
+    @media (max-width: 767px) {
+        width: 90vw;
+        max-width: 358px;
     }
     &:hover {
         border-color: #2196f3;
@@ -260,6 +276,10 @@ list-style: none;
     border: 1px solid #2196f3;
     padding: 0;
     margin-top: 45px;
+    @media (max-width: 767px) {
+        width: 90vw;
+        max-width: 200px;
+    }
 }
 .footer__span {
     padding-left: 42px;
