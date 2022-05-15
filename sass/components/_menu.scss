@@ -36,7 +36,8 @@
         }
     }
 .menu-container__logo--div {
-    margin: auto;
+    display: block;
+    margin: 0;
 }
 .menu-container__nav {
     display: flex;

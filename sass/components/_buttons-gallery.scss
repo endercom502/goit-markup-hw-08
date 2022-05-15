@@ -12,7 +12,8 @@
     @media (max-width: 767px) {
         padding-top: 60px;
         padding-bottom: 40px;
-        width: 480px;
+        width: 100vw;
+        max-width: 480px;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-content: center;
@@ -48,22 +49,24 @@
     @media (max-width: 767px) {
         padding: 6px auto;
         height: 38px;
-        &:nth-child(1) {
-            width: 103px;
-            margin-bottom: 15px;
-        }
-        &:nth-child(4) {
-            width: 103px;
-        }
-        &:nth-child(2) {
-            width: 128px;
-            margin-bottom: 15px;
-        }
-        &:nth-child(5) {
-            width: 128px;
-        }
-        &:nth-child(3) {
-            width: 145px;
-        }
+        width: 128px;
+        margin-top: 15px;
+        // &:nth-child(1) {
+        //     // width: 103px;
+        //     // margin-bottom: 15px;
+        // }
+        // &:nth-child(4) {
+        //     // width: 103px;
+        // }
+        // &:nth-child(2) {
+        //     width: 128px;
+        //     // margin-bottom: 15px;
+        // }
+        // &:nth-child(5) {
+        //     width: 128px;
+        // }
+        // &:nth-child(3) {
+        //     // width: 145px;
+        // }
 }
 }
