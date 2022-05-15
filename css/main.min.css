@@ -1570,7 +1570,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-workers--img {
-    width: 100vw;
+    width: 90vw;
     max-width: 450px;
     height: auto;
   }
@@ -1640,7 +1640,7 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-workers__shadow {
     height: auto;
-    width: 100vw;
+    width: 90vw;
     max-width: 450px;
   }
 }

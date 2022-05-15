@@ -30,7 +30,7 @@
     }
         @media (max-width: 767px) {
             & {
-                width: 100vw;
+                width: 90vw;
                 max-width: 450px;
                 height: auto;
             }
@@ -90,7 +90,7 @@
     border-radius: 3px;
     @media (max-width: 767px) {
     height: auto;
-    width: 100vw;
+    width: 90vw;
     max-width: 450px;
     & + img {
         @media (max-width: 767px) {
