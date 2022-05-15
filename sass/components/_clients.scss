@@ -89,7 +89,7 @@
         }
         @media (max-width: 767px) {
             margin: auto;
-            width: 45vw;
+            width: 44vw;
             max-width: 172px;
             max-height: 92px;
         }
@@ -149,6 +149,8 @@
         @media (max-width: 767px) {
             // margin: 16px 52px;
             margin: auto;
+            width: 100vw;
+            max-width: 106px;
         }
     
     &:hover {
@@ -164,7 +166,7 @@
             margin: 16px 60px;
         }
     @media (max-width: 767px) {
-        margin: 16px 52px;
+        margin: 16px 15%;
         }
     }
 }

@@ -704,7 +704,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-offer__svg {
-    width: 100vw;
+    width: 90vw;
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
@@ -728,7 +728,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-offer__src {
-    margin: auto;
+    margin: 25px auto;
   }
 }
 
@@ -753,7 +753,7 @@ textarea::placeholder {
     margin-left: auto;
     margin-right: auto;
     max-width: 450px;
-    width: 100vw;
+    width: 90vw;
     height: 50px;
     text-align: center;
   }
@@ -948,7 +948,7 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-clients__svg {
     margin: auto;
-    width: 45vw;
+    width: 44vw;
     max-width: 172px;
     max-height: 92px;
   }
@@ -1017,6 +1017,8 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .container-clients__graphics {
     margin: auto;
+    width: 100vw;
+    max-width: 106px;
   }
 }
 .container-clients__graphics:hover {
@@ -1036,7 +1038,7 @@ textarea::placeholder {
 }
 @media (max-width: 767px) {
   .container-clients__graphics:nth-child(2n+1) {
-    margin: 16px 52px;
+    margin: 16px 15%;
   }
 }
 

@@ -65,7 +65,7 @@
     }
     @media (max-width: 767px) {
         & {
-        width: 100vw;
+        width: 90vw;
         max-width: 450px;
         margin-left: auto;
         margin-right: auto;
@@ -90,7 +90,7 @@
         }
     @media (max-width: 767px) {
     //  margin: 25px 192.34px 25px 192.34px;
-        margin: auto;
+        margin: 25px auto;
    }
 }
 .container-offer__text {
@@ -113,7 +113,7 @@
             margin-left: auto;
             margin-right: auto;
             max-width: 450px;
-            width: 100vw;
+            width: 90vw;
             height: 50px;
             text-align: center;
         }
