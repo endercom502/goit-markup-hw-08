@@ -1748,8 +1748,8 @@ a:hover {
 .mobile-menus {
   background-color: #FFFFFF;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 800vw;
+  height: 80vh;
   display: flex;
   left: 0;
   top: 0;
@@ -1797,7 +1797,7 @@ a:hover {
 
 .mobile-menu__header--a {
   text-decoration: none;
-  margin-bottom: 36px;
+  margin-bottom: auto;
 }
 .mobile-menu__header--a:link {
   color: #212121;
@@ -1810,7 +1810,7 @@ a:hover {
   color: #2196F3;
 }
 .mobile-menu__header--a:last-child {
-  margin-bottom: 302px;
+  margin-bottom: 40vw;
 }
 
 .mobile-menu__main {
@@ -1837,6 +1837,8 @@ a:hover {
 .mobile-menu__footer {
   display: flex;
   flex-direction: row;
+  width: 80vw;
+  flex-wrap: wrap;
 }
 
 .mobile-menu__footer--a {
@@ -1875,8 +1877,8 @@ a:hover {
 .mobile-menus {
   background-color: #FFFFFF;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 800vw;
+  height: 80vh;
   display: flex;
   left: 0;
   top: 0;
@@ -1924,7 +1926,7 @@ a:hover {
 
 .mobile-menu__header--a {
   text-decoration: none;
-  margin-bottom: 36px;
+  margin-bottom: auto;
 }
 .mobile-menu__header--a:link {
   color: #212121;
@@ -1937,7 +1939,7 @@ a:hover {
   color: #2196F3;
 }
 .mobile-menu__header--a:last-child {
-  margin-bottom: 302px;
+  margin-bottom: 40vw;
 }
 
 .mobile-menu__main {
@@ -1964,6 +1966,8 @@ a:hover {
 .mobile-menu__footer {
   display: flex;
   flex-direction: row;
+  width: 80vw;
+  flex-wrap: wrap;
 }
 
 .mobile-menu__footer--a {
